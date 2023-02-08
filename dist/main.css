@@ -1,0 +1,34 @@
+/* main.scss */ /* 
+$font-size-base: 16px;
+$font-family-base: "Arial", sans-serif; */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: medium;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* @import "layout/grid"; */
+/* @import "vendors/third-party-library"; */
+/* @import "mixins/mixins"; */
+/* @import "functions/functions"; */
+
+/*# sourceMappingURL=main.css.map */

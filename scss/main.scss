@@ -1,0 +1,40 @@
+/* main.scss */
+
+// Import base styles
+@import "base/reset";
+@import "base/typography";
+@import "base/base";
+
+// Import layout styles
+@import "layout/header";
+@import "layout/footer";
+/* @import "layout/grid"; */
+
+// Import component styles
+@import "components/buttons";
+@import "components/forms";
+@import "components/cards";
+@import "components/modals";
+
+// Import page styles
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+
+// Import theme styles
+@import "themes/default";
+@import "themes/dark";
+
+// Import vendor styles
+/* @import "vendors/third-party-library"; */
+
+// Import mixins and functions
+/* @import "mixins/mixins"; */
+/* @import "functions/functions"; */
+
+// Import variables
+@import "vendors/variables";
+
+
+
+
