@@ -3,7 +3,7 @@ $font-size-base: 16px;
 $font-family-base: "Arial", sans-serif; */
 
 // body {
-//     /* 
+//     /*
 //   font-size: $font-size-base;
 //   line-height: $line-height-base;
 //   font-family: $font-family-base; */
@@ -22,17 +22,19 @@ h2 {
 
 h3 {
   font-size: 20px;
-  font-weight: 400 ;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 18px;
-  font-weight: 400 ;
-}
-
-p {
-  font-size:16px;
   font-weight: 400;
 }
 
-
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.sous-p {
+  font-size: 14px;
+  font-weight: 300;
+}
