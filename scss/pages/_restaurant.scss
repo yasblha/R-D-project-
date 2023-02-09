@@ -1,0 +1,46 @@
+.header-img {
+    width: 100%;
+    height: 44rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main-card {
+    width: 57rem;
+    height: 129rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+    padding-left: 3rem; 
+    padding-right: 1rem;
+    
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+            margin: 1rem;
+            cursor: pointer;
+        }
+
+        h1 {
+            margin: 4rem;
+        }
+}
+
+.reservation {
+    width: 30rem;
+    height: 31rem;
+    background-color: red;
+    margin-left: 4.5rem;
+    border-radius: 0.5rem;
+}
+
+.hr-component {
+    background: $color-grey;
+    border: 0;
+    height: 1px;   
+}
