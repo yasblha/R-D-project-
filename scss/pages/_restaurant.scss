@@ -17,6 +17,8 @@
     border-radius: 0.5rem;
     padding-left: 3rem; 
     padding-right: 1rem;
+    z-index: 1000;
+    margin-top: -4.1rem;
     
         button {
             background: none;
@@ -29,14 +31,21 @@
         h1 {
             margin: 4rem;
         }
-}
 
-.reservation {
-    width: 30rem;
-    height: 31rem;
-    background-color: red;
-    margin-left: 4.5rem;
-    border-radius: 0.5rem;
+        .overview {
+            margin: 2rem 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-section-2 {
+            display: flex;
+        }
+
+        .right-section-2 {
+            width: 30rem;
+            height: 8.4rem;
+        }
 }
 
 .hr-component {
@@ -44,3 +53,128 @@
     border: 0;
     height: 1px;   
 }
+
+.icone {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.dollars {
+   width: 2.6rem;
+   height: 1.7rem;
+}
+
+
+
+
+
+
+
+.reservation {
+    width: 27.6rem;
+    height: 31rem;
+    background-color: red;
+    margin-left: 4.5rem;
+    border-radius: 0.5rem;
+    z-index: 1000;
+    margin-top: -4.1rem;
+    padding: 0 1.2rem;
+}
+
+.title-reservation {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+}
+
+.hr-component-2 {
+    background: $color-grey;
+    border: 0;
+    height: 1px;   
+}
+
+.party-size{
+    margin-top:  2rem;;
+}
+
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /*Réinitilaisation de la liste déroulante*/
+  select {
+    appearance: none;
+    outline: 0;
+    border: 0 !important;
+    background: #F9F9F9;
+    background-image: none;
+    box-shadow: none;
+    font-size: 1.2em;
+  }
+  
+  /*Ajout des couleurs de fond pour chaque option */
+  select option[value="1"] {
+    background: #2E6DB4;
+    color: white;
+  }
+  
+  select option[value="2"] {
+    background: #107C11;
+    color: white;
+  }
+  
+  select option[value="3"] {
+    background: #E70009;
+    color: white;
+  }
+  
+  select option[value="4"] {
+    background: black;
+    color: white;
+  }
+  
+  /* Mise en forme de la div .select*/
+  .select {
+    position: relative;
+    width: 350px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+  }
+  
+  /* Mise en forme de la balise select*/
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 15px;
+    color: #555555;
+    cursor: pointer;
+  }
+  
+  
+  /* Mise en place de la flèche */
+  .select::after {
+    content: '\276F';
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 0 15px;
+    background: white;
+    pointer-events: none;
+    transform: rotate(90deg);
+    font-size: 1.5em;
+    background: #F9F9F9;
+  }
+  
+  
+  .select:hover::after {
+    color: #FA6141;
+  }
