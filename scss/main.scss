@@ -4,7 +4,6 @@
 @import "base/reset";
 @import "base/typography";
 @import "base/base";
-@import "base/fonts";
 
 // Import layout styles
 @import "layout/header";
@@ -21,6 +20,7 @@
 @import "pages/home";
 @import "pages/about";
 @import "pages/contact";
+@import "pages/login";
 
 // Import theme styles
 @import "themes/default";

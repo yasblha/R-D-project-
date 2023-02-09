@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  width: 50%;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.login-header h1 {
+    
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form h3 {
+  width: 60%;
+}
+.login-form input {
+  width: 30rem;
+  height: 30px;
+  margin-top: 2rem;
+}
+.login-form select {
+  width: 30.5rem;
+  height: 35px;
+}
+.login-form button {
+  width: 30rem;
+  height: 35px;
+}
