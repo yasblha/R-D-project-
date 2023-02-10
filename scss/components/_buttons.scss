@@ -61,6 +61,33 @@
         display: flex;
         margin-right: 1.2rem;
       }
+
+      
+
+.coeur-login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 5.730481338500977rem;
+        width: 12.8rem;
+        border-radius: 3rem;
+        border: 1px solid #A0A0A0;
+        margin: 18.0966796875px;
+        
+                
+      }
+      .coeur-login-line {
+        width: 44%;
+        height: 0rem;
+        border: 1px solid #A0A0A0 !important; 
+        transform: rotate(90deg);
+      }
+      
+      
+
+
+
       
     
     
