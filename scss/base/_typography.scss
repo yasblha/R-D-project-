@@ -1,6 +1,4 @@
 /* 
-$font-size-base: 16px;
-$font-family-base: "Arial", sans-serif; */
 
 // body {
 //     /*
@@ -35,6 +33,11 @@ p {
   font-weight: 400;
 }
 .sous-p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+label , input, select,option {
   font-size: 14px;
   font-weight: 300;
 }
