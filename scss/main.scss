@@ -1,5 +1,8 @@
 /* main.scss */
 
+@import "variables/variables";
+// Import mixins styles
+@import "mixins/mixins";
 // Import base styles
 @import "base/reset";
 @import "base/typography";
@@ -33,5 +36,4 @@
 /* @import "mixins/mixins"; */
 /* @import "functions/functions"; */
 
-// Import variables
-@import "vendors/variables";
+// Import variables styles

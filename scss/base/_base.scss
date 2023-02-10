@@ -1,17 +1,22 @@
-@import url("https://fonts.cdnfonts.com/css/circular-std");
 
-$font1: "Circular Std", sans-serif;
 
-$color-background: #fefefe;
-
-$color-text: #000000;
-
-$color-grey: #a0a0a0;
-$color-grey-doux: #eaeaea;
-
-$color-button: #a52a2a;
+*,
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
 body {
   font-family: $font1;
   background-color: $color-background;
+  box-sizing: border-box;
+  padding: 3rem;
+  @include responsive(sm) {
+    padding: 0;
+  }
+  ::selection {
+    color: $color-text;
+    background-color: $color-grey;
+  }
 }
