@@ -95,5 +95,11 @@
     
     
   
-  
-  
+}
+.social-buttons button {
+  width: 20rem;
+  height: 4rem;
+}
+.social-buttons button:first-child {
+  background-color: $color-social-button;
+}
