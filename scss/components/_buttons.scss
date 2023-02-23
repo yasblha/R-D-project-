@@ -61,10 +61,7 @@
         display: flex;
         margin-right: 1.2rem;
       }
-
-      
-
-.coeur-login-container {
+  .coeur-login-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,31 +71,18 @@
         border-radius: 3rem;
         border: 1px solid #A0A0A0;
         margin: 18.0966796875px;
-        
-                
+        .coeur-login-line {
+          height: 5.4rem;
+          border: 1px solid #A0A0A0 !important; 
+          /* transform: rotate(90deg); */
+          padding: 0%;}   
       }
-      .coeur-login-line {
-        width: 44%;
-        height: 0rem;
-        border: 1px solid #A0A0A0 !important; 
-        transform: rotate(90deg);
-      }
-      
-      
-
-
-
-      
-    
-    
-    
-    
-    
+     
+           
   
-}
 .social-buttons button {
-  width: 20rem;
-  height: 4rem;
+        width: 20rem;
+        height: 4rem;
 }
 .social-buttons button:first-child {
   background-color: $color-social-button;
