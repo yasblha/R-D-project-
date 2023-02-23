@@ -1,0 +1,9 @@
+.home-card-layout{
+    margin-top: 4.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        .home-card:nth-child(odd){
+            margin-bottom: 7.6rem;
+        }
+}

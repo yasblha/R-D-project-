@@ -11,6 +11,8 @@
 // Import layout styles
 @import "layout/header";
 @import "layout/footer";
+@import "layout/home";
+@import "layout/home-card";
 /* @import "layout/grid"; */
 
 // Import component styles
@@ -19,7 +21,10 @@
 @import "components/cards";
 @import "components/modals";
 @import "components/header";
-@import "components/home-button-time";
+@import "components/home-card";
+@import "components/home-card-button-time";
+@import "components/home-card-img";
+
 
 // Import page styles
 @import "pages/restaurant";
