@@ -13,14 +13,6 @@
     z-index: 1000;
     margin-top: -4.1rem;
     
-        button {
-            background: none;
-            color: inherit;
-            border: none;
-            margin: 1rem;
-            cursor: pointer;
-        }
-
         h1 {
             margin: 4rem;
         }
@@ -67,4 +59,12 @@
         .icone {
             margin-left: 1.2rem;
         }
+}
+
+.additional-information {
+    margin-top: 1.7rem;
+}
+
+.boulevard {
+    color: $color-button ; 
 }
