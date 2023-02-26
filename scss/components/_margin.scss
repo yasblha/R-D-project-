@@ -17,3 +17,32 @@
 .margin-left-11 {
   margin-left: 1.1rem;
 }
+
+
+@for $i from 1 through 1000 {
+    $decimal-i: calc($i / 10);
+    .ml-#{$i} {
+      @include ml(#{$decimal-i}rem);
+    }
+  }
+
+  @for $i from 1 through 1000 {
+    $decimal-i: calc($i / 10);
+    .mt-#{$i} {
+      @include mt(#{$decimal-i}rem);
+    }
+  }
+
+  @for $i from 1 through 1000 {
+    $decimal-i: calc($i / 10);
+    .mr-#{$i} {
+      @include mr(#{$decimal-i}rem);
+    }
+  }
+
+  @for $i from 1 through 1000 {
+    $decimal-i: calc($i / 10);
+    .mb-#{$i} {
+      @include mb(#{$decimal-i}rem);
+    }
+  }
