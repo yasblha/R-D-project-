@@ -1,9 +1,7 @@
-// Import variables
+//Import variables
 
-/* main.scss */
 @import 'variables/variables';
 @import 'mixins/mixins';
-@import 'helpers/helpers';
 // Import base styles
 @import 'base/reset';
 @import 'base/typography';
@@ -13,7 +11,6 @@
 @import 'layout/header';
 @import 'layout/home';
 @import 'layout/home-card';
-/* @import "layout/grid"; */
 
 // Import component styles
 @import 'components/buttons';
@@ -22,10 +19,8 @@
 @import 'components/modals';
 @import 'components/header';
 @import 'components/home-card';
-@import 'components/home-card-button-time';
 @import 'components/home-card-img';
 @import 'components/separator';
-@import 'components/resto-card-reservation';
 @import 'components/resto-card-overview';
 @import 'components/resto-img';
 @import 'components/display';
@@ -45,9 +40,10 @@
 @import 'themes/dark';
 
 // Import vendor styles
-/* @import "vendors/third-party-library"; */
+//@import "vendors/third-party-library";
 
 // Import mixins and functions
-/* @import "functions/functions"; */
+
+// @import "functions/functions"; */
 
 // Import variables
