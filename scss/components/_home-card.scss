@@ -11,9 +11,6 @@
     margin-top: 0.9rem;
     color: $color-grey;
     align-items: center;
-        p {
-            margin-right: 0.8rem;
-        }
 
         p:nth-child(1) {
             font-weight: 700;
@@ -28,13 +25,3 @@
             margin-right: 0.8rem;
         }
 }
-
-
-.card-reviews {
-    display: flex;
-    margin-top: 1.1rem;
-        p {
-            margin-left: 1.1rem;
-        }
-}
-
