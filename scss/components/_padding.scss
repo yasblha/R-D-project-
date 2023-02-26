@@ -1,0 +1,6 @@
+@for $i from 0 through 100 {
+    $decimal-i: calc(#{$i} / 10);
+    .pad-#{$i} {
+      padding: #{$decimal-i}rem;
+    }
+  }
