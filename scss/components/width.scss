@@ -1,0 +1,6 @@
+@for $i from 1 through 1000 {
+  $decimal-i: calc(#{$i} / 10);
+  .w-#{$i} {
+    width: #{$decimal-i}rem;
+  }
+}

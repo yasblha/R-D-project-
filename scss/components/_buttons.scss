@@ -66,7 +66,6 @@
   display: flex;
   margin-right: 1.2rem;
 }
-
 .coeur-login-container {
   display: flex;
   justify-content: center;
@@ -77,12 +76,12 @@
   border-radius: 3rem;
   border: 1px solid #a0a0a0;
   margin: 18.0966796875px;
-}
-.coeur-login-line {
-  width: 44%;
-  height: 0rem;
-  border: 1px solid #a0a0a0 !important;
-  transform: rotate(90deg);
+  .coeur-login-line {
+    height: 5.4rem;
+    border: 1px solid #a0a0a0 !important;
+    /* transform: rotate(90deg); */
+    padding: 0%;
+  }
 }
 
 .social-buttons button {
@@ -110,5 +109,21 @@
   font-size: 14px;
   border: 1px solid $color-button;
   font-family: $font1;
+  cursor: pointer;
+}
+
+.button-xs {
+  color: $color-blanc;
+  background-color: $color-button;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  border-radius: $border-radius-5;
+  font-size: 14px;
+  border: none;
+  font-weight: 100;
+  font-family: $font1;
+  margin-top: 1.4rem;
   cursor: pointer;
 }

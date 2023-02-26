@@ -1,34 +1,3 @@
-.main-card {
-    width: 57rem;
-    height: 129rem;
-    background-color: $color-background;
-    border-radius: 0.5rem;
-    padding-left: 3rem; 
-    padding-right: 1rem;
-    z-index: 1000;
-    margin-top: -4.1rem;
-    
-        h1 {
-            margin: 4rem;
-        }
-
-        .overview {
-            margin: 2rem 0;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .left-section-2 {
-            display: flex;
-        }
-
-        .right-section-2 {
-            width: 30rem;
-            height: 8.4rem;
-        }
-}
-
-
 .icone {
     width: 1.8rem;
     height: 1.8rem;
@@ -37,27 +6,6 @@
 .dollars {
    width: 2.6rem;
    height: 1.7rem;
-}
-
-.review {
-    p {
-        margin-left: 1rem;
-    }
-}
-
-
-.dollar {
-    margin-top: 3.5rem;
-        p {
-            margin-left: 0.3rem;
-        }
-        .icone {
-            margin-left: 1.2rem;
-        }
-}
-
-.additional-information {
-    margin-top: 1.7rem;
 }
 
 .boulevard {
