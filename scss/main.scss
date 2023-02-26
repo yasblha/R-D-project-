@@ -1,57 +1,55 @@
 // Import variables
 
 /* main.scss */
-@import "variables/variables";
-@import "mixins/mixins";
+@import 'variables/variables';
+@import 'mixins/mixins';
+@import 'helpers/helpers';
 // Import base styles
-@import "base/reset";
-@import "base/typography";
-@import "base/base";
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
 
 // Import layout styles
-@import "layout/header";
-@import "layout/home";
-@import "layout/home-card";
+@import 'layout/header';
+@import 'layout/home';
+@import 'layout/home-card';
 /* @import "layout/grid"; */
 
 // Import component styles
-@import "components/buttons";
-@import "components/forms";
-@import "components/cards";
-@import "components/modals";
-@import "components/header";
-@import "components/home-card";
-@import "components/home-card-button-time";
-@import "components/home-card-img";
-@import "components/separator";
-@import "components/resto-card-reservation";
-@import "components/resto-card-overview";
-@import "components/resto-img";
-@import "components/display";
-@import "components/footer";
-@import "components/input";
-@import "components/select";
-@import "components/CTAbutton";
-@import "components/margin";
-@import "components/resto-menu-button";
-@import "components/resto-card-overview-button";
-
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+@import 'components/modals';
+@import 'components/header';
+@import 'components/home-card';
+@import 'components/home-card-button-time';
+@import 'components/home-card-img';
+@import 'components/separator';
+@import 'components/resto-card-reservation';
+@import 'components/resto-card-overview';
+@import 'components/resto-img';
+@import 'components/display';
+@import 'components/footer';
+@import 'components/input';
+@import 'components/select';
+@import 'components/margin';
+@import 'components/resto-menu-button';
+@import 'components/resto-card-overview-button';
 
 // Import page styles
-@import "pages/home";
-@import "pages/about";
-@import "pages/contact";
-@import "pages/login";
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/login';
 
 // Import theme styles
-@import "themes/default";
-@import "themes/dark";
+@import 'themes/default';
+@import 'themes/dark';
 
 // Import vendor styles
 /* @import "vendors/third-party-library"; */
 
 // Import mixins and functions
-
 /* @import "functions/functions"; */
 
 // Import variables
