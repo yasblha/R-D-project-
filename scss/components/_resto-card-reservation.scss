@@ -44,28 +44,6 @@
     background-color: $color-background;
   }
   
-  /*Ajout des couleurs de fond pour chaque option */
- /*  select option[value="1"] {
-    background: #2E6DB4;
-    color: white;
-  }
-  
-  select option[value="2"] {
-    background: #107C11;
-    color: white;
-  }
-  
-  select option[value="3"] {
-    background: #E70009;
-    color: white;
-  }
-  
-  select option[value="4"] {
-    background: black;
-    color: white;
-  } */
-  
-  /* Mise en forme de la div .select*/
   .select {
     position: relative;
     width: 28rem;
@@ -109,18 +87,6 @@
     display: flex;
     
   }
-
-  /* [type="date"] {
-    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
-  } */
- /*  [type="date"]::-webkit-inner-spin-button {
-    display: none;
-  } */
-  /* [type="date"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-  } */
-  
-  /* custom styles */
  
   .label-date,.label-time {
     display: block;
