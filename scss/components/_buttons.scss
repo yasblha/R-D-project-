@@ -84,22 +84,31 @@
         transform: rotate(90deg);
       }
       
-      
-
-
-
-      
-    
-    
-    
-    
-    
-  
-
 .social-buttons button {
   width: 20rem;
   height: 4rem;
 }
 .social-buttons button:first-child {
   background-color: $color-social-button;
+}
+
+.button-none {
+  background: none;
+  color: inherit;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.button-menu {
+    
+  background-color: $color-background;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 14px;
+  border: 1px solid $color-button;
+  font-family: $font1;
+  cursor: pointer;
 }

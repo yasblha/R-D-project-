@@ -17,9 +17,7 @@
     margin-bottom: 1.6rem;
 }
 
-.party-size{
-    margin-top:  2rem;;
-}
+
 
 
 .bloc {
@@ -31,6 +29,14 @@
     
    
   }
+
+
+
+
+
+
+
+
   
   /*Réinitilaisation de la liste déroulante*/
   .select select {
@@ -108,7 +114,5 @@
   .input-time {
     margin-left: 3.6rem;
     /* height: 3rem; */
-    :focus{
-      outline: none;
-    }
+    
   }
