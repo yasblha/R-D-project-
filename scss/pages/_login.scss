@@ -28,39 +28,8 @@ main {
   padding: 1.5rem;
   width: 50rem;
 }
-.login-form input {
-  width: 50rem;
-  height: 4rem;
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  margin-top: 2.4rem;
-}
-.login-form select {
-  width: 51.2rem;
-  height: 5.2rem;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  border: 0;
-  border: 1px solid black !important;
-  border-radius: 0.5rem;
-  margin-top: 3rem;
-}
 
-.login-form button {
-  width: 51.2rem;
-  height: 5.2rem;
-  border: 1px solid $color-grey !important;
-  border-radius: 0.5rem;
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: white;
-  background: linear-gradient(to right, #454e6b, #29314b, #454e6b) !important;
-}
-
-.login-form button:hover {
+.login-form .login-form button:hover {
   transform: translateY(-0.2rem) !important;
 }
 
