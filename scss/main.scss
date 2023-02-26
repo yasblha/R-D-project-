@@ -10,7 +10,6 @@
 
 // Import layout styles
 @import "layout/header";
-@import "layout/footer";
 @import "layout/home";
 @import "layout/home-card";
 /* @import "layout/grid"; */
@@ -29,7 +28,10 @@
 @import "components/resto-card-overview";
 @import "components/resto-img";
 @import "components/display";
-
+@import "components/footer";
+@import "components/input";
+@import "components/select";
+@import "components/CTAbutton";
 
 // Import page styles
 @import "pages/home";
