@@ -1,7 +1,5 @@
 // Import variables
 
-
-
 /* main.scss */
 @import 'variables/variables';
 @import 'mixins/mixins';
@@ -18,27 +16,23 @@
 /* @import "layout/grid"; */
 
 // Import component styles
-@import "components/buttons";
-@import "components/forms";
-@import "components/cards";
-@import "components/modals";
-@import "components/header";
-@import "components/home-card";
-@import "components/home-card-button-time";
-@import "components/home-card-img";
-@import "components/separator";
-@import "components/resto-card-reservation";
-@import "components/resto-card-overview";
-@import "components/resto-img";
-@import "components/display";
-@import "components/footer";
-@import "components/input";
-@import "components/select";
-@import "components/CTAbutton";
-@import "components/margin";
-@import "components/resto-menu-button";
-@import "components/resto-card-overview-button";
-
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+@import 'components/modals';
+@import 'components/header';
+@import 'components/home-card';
+@import 'components/home-card-button-time';
+@import 'components/home-card-img';
+@import 'components/separator';
+@import 'components/resto-card-reservation';
+@import 'components/resto-card-overview';
+@import 'components/resto-img';
+@import 'components/display';
+@import 'components/footer';
+@import 'components/input';
+@import 'components/select';
+@import 'components/margin';
 
 // Import page styles
 @import 'pages/home';

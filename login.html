@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./dist/main.css" />
   </head>
   <body>
-    <main>
-      <section>
+    <main class="flex-center-col">
+      <section class="flex-center-col">
         <div><img src="./assets/Logo.svg" alt="Logo easy R & D" /></div>
         <!-- LOGO -->
         <div>
@@ -19,15 +19,18 @@
           </h1>
         </div>
         <!-- UNDER LOGO TEXT -->
-        <div>
-          <form>
-            <div>
-              <select name="phoneNumberCountry" class="select-input-1 w-12px">
+        <div class="width-half pb-10rem">
+          <form class="flex-center-col">
+            <div class="width-full flex-center">
+              <select
+                name="phoneNumberCountry"
+                class="select-input-1 width-full"
+              >
                 <option value="">France (+33)</option>
                 <option value="">option2</option>
               </select>
             </div>
-            <div>
+            <div class="flex-center width-full">
               <input
                 type="tel"
                 name="phoneNumber"
@@ -43,7 +46,9 @@
                 Politique de confidentialité.
               </p>
             </div>
-            <div><button class="button-1" type="submit">Continuer</button></div>
+            <div class="flex-center width-full">
+              <button class="button-bg-blue" type="submit">Continuer</button>
+            </div>
           </form>
         </div>
         <!-- FORM CONTAINER -->
