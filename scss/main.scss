@@ -14,21 +14,22 @@
 @import 'layout/home-card';
 
 // Import component styles
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/cards';
-@import 'components/modals';
-@import 'components/header';
-@import 'components/home-card';
-@import 'components/home-card-img';
-@import 'components/separator';
-@import 'components/resto-card-overview';
-@import 'components/resto-img';
-@import 'components/display';
-@import 'components/footer';
-@import 'components/input';
-@import 'components/select';
-@import 'components/margin';
+@import "components/buttons";
+@import "components/forms";
+@import "components/cards";
+@import "components/modals";
+@import "components/header";
+@import "components/home-card-img";
+@import "components/separator";
+@import "components/resto-card-overview";
+@import "components/resto-img";
+@import "components/display";
+@import "components/footer";
+@import "components/input";
+@import "components/select";
+@import "components/margin";
+@import "components/padding";
+@import "components/width";
 
 // Import page styles
 @import 'pages/home';

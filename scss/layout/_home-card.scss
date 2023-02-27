@@ -3,7 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        .home-card:nth-child(odd){
+        .card-default:nth-child(odd){
             margin-bottom: 7.6rem;
         }
+
+        
 }

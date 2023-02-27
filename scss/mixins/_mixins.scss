@@ -6,6 +6,7 @@
   }
 }
 
+//margin
 @mixin ml($value) {
   margin-left: $value;
 }
@@ -22,6 +23,35 @@
   margin-bottom: $value;
 }
 
+
+//padding
+@mixin pr($value) {
+  padding-right: $value;
+}
+
+@mixin pl($value) {
+  padding-left: $value;
+}
+
+@mixin pt($value) {
+  padding-top: $value;
+}
+
+@mixin pb($value) {
+  padding-bottom: $value;
+}
+
+@mixin p($value) {
+  padding: $value;
+}
+
+//width
+@mixin w($value) {
+  width: $value;
+}
+
+
+
 @mixin absCenter {
   position: abosolute;
   left: 50%;
@@ -31,22 +61,22 @@
 
 @mixin responsive($breakpoint) {
   @if $breakpoint == sm {
-    @media only screen and (max-width: 60rem) {
+    @media only screen and (max-width: 425px) {
       @content;
     }
   }
   @if $breakpoint == md {
-    @media only screen and (max-width: 90rem) {
+    @media only screen and (max-width: 840px) {
       @content;
     }
   }
   @if $breakpoint == lg {
-    @media only screen and (max-width: 120rem) {
+    @media only screen and (max-width: 1024px) {
       @content;
     }
   }
   @if $breakpoint == xl {
-    @media only screen and (max-width: 180rem) {
+    @media only screen and (max-width: 1440px) {
       @content;
     }
   }
