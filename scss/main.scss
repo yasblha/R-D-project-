@@ -1,20 +1,16 @@
-// Import variables
+//Import variables
 
-
-
-/* main.scss */
-@import "variables/variables";
-@import "mixins/mixins";
+@import 'variables/variables';
+@import 'mixins/mixins';
 // Import base styles
-@import "base/reset";
-@import "base/typography";
-@import "base/base";
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
 
 // Import layout styles
-@import "layout/header";
-@import "layout/home";
-@import "layout/home-card";
-/* @import "layout/grid"; */
+@import 'layout/header';
+@import 'layout/home';
+@import 'layout/home-card';
 
 // Import component styles
 @import "components/buttons";
@@ -37,20 +33,20 @@
 @import "components/width";
 
 // Import page styles
-@import "pages/home";
-@import "pages/about";
-@import "pages/contact";
-@import "pages/login";
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/login';
 
 // Import theme styles
-@import "themes/default";
-@import "themes/dark";
+@import 'themes/default';
+@import 'themes/dark';
 
 // Import vendor styles
-/* @import "vendors/third-party-library"; */
+//@import "vendors/third-party-library";
 
 // Import mixins and functions
 
-/* @import "functions/functions"; */
+// @import "functions/functions"; */
 
 // Import variables

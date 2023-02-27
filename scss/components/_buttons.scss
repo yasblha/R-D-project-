@@ -1,98 +1,93 @@
+.button-bg-blue {
+  width: 80%;
+  height: 4rem;
+  border: 1px solid $color-grey !important;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(to right, #454e6b, #29314b, #454e6b) !important;
+}
 .continue-btn {
-    position: absolute;
-    width: 36.3rem;
-    height: 4.4rem;
-    left: 2.0rem;
-    top: 2.0rem;
-    
-    
-    background-color: #454E6B;
-    color: #FFFFFF;
-    font-size: 1.6rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    line-height: 4.4rem;
-    cursor: pointer;
-  }
+  position: absolute;
+  width: 36.3rem;
+  height: 4.4rem;
+  left: 2rem;
+  top: 2rem;
 
+  background-color: #454e6b;
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 4.4rem;
+  cursor: pointer;
+}
 
 .search-bar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    background: #FEFEFE;
-    border: 1px solid #A0A0A0;   
-    margin: 1.8rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
-  }
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: #fefefe;
+  border: 1px solid #a0a0a0;
+  margin: 1.8rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 .search-bar-text1,
 .search-bar-text2 {
-  font-family: "Circular Std";
+  font-family: 'Circular Std';
   font-style: normal;
   font-weight: 450;
-  line-height: 2.0rem;
-  font-feature-settings: "pnum" on, "lnum" on;
+  line-height: 2rem;
+  font-feature-settings: 'pnum' on, 'lnum' on;
   text-align: left;
   display: flex;
   margin-top: 0.18rem;
   margin-right: 8rem;
-  }
-  
+}
+
 .search-bar-text1 {
-  font-size: 1.6rem;  
-  }
-  
+  font-size: 1.6rem;
+}
+
 .search-bar-text2 {
   font-size: 1.4rem;
-  color: #A0A0A0;  
-  }
+  color: #a0a0a0;
+}
 
 .search-bar-icon {
-        position: absolute;
-        right: 38.7rem;
-        left: 2.0rem;
-        top: 1.48rem;
-        bottom: 1.58rem;        
-        display: flex;
-        margin-right: 1.2rem;
-      }
-  .coeur-login-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        height: 5.730481338500977rem;
-        width: 12.8rem;
-        border-radius: 3rem;
-        border: 1px solid #A0A0A0;
-        margin: 18.0966796875px;
-        .coeur-login-line {
-          height: 5.4rem;
-          border: 1px solid #A0A0A0 !important; 
-          /* transform: rotate(90deg); */
-          padding: 0%;}   
-      }
-      
-      
-
-
-
-      
-    
-    
-    
-    
-    
-  
+  position: absolute;
+  right: 38.7rem;
+  left: 2rem;
+  top: 1.48rem;
+  bottom: 1.58rem;
+  display: flex;
+  margin-right: 1.2rem;
+}
+.coeur-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 5.730481338500977rem;
+  width: 12.8rem;
+  border-radius: 3rem;
+  border: 1px solid #a0a0a0;
+  margin: 18.0966796875px;
+  .coeur-login-line {
+    height: 5.4rem;
+    border: 1px solid #a0a0a0 !important;
+    /* transform: rotate(90deg); */
+    padding: 0%;
+  }
+}
 
 .social-buttons button {
-        width: 20rem;
-        height: 4rem;
+  width: 20rem;
+  height: 4rem;
 }
 .social-buttons button:first-child {
   background-color: $color-social-button;
@@ -107,7 +102,6 @@
 }
 
 .button-menu {
-    
   background-color: $color-background;
   padding-left: 1.8rem;
   padding-right: 1.8rem;

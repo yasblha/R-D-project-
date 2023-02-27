@@ -1,8 +1,30 @@
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.width-quarter {
+  width: 25%;
+}
+
+.width-auto {
+  width: auto;
 }
