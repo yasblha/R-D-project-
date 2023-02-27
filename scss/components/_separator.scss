@@ -3,7 +3,23 @@
     border: 0;
     height: 1px;   
     width: 57.1rem;
+    @include responsive(md) {
+        width: 49rem;
+      }
 }
+
+
+.separator-57-none {
+    background: $color-grey;
+    border: 0;
+    height: 1px;   
+    width: 57.1rem;
+    @include responsive(md) {
+        display: none;
+      }
+}
+
+
 
 .separator-54 {
     background: $color-grey;

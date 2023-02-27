@@ -1,11 +1,27 @@
-.home-card-layout{
+.layout-card-default{
+    
     margin-top: 4.4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-        .card-default:nth-child(odd){
-            margin-bottom: 7.6rem;
-        }
-
+        .card-default{
         
+       
+        @include responsive(md) {
+            margin-bottom: 2.5rem;
+            }
+        
+        &:nth-child(odd){
+            margin-bottom: 7.6rem;
+
+            @include responsive(md) {
+                margin-bottom: 2.5rem;
+                }
+  
+        }
+    }
+ 
+    @include responsive(md) {
+        justify-content: center;
+        } 
 }

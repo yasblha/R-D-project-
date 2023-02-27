@@ -1,6 +1,9 @@
-@for $i from 0 through 100 {
-  $decimal-i: calc(#{$i} / 10);
+@for $i from 1 through 10000 {
+  $decimal-i: calc($i / 10);
   .w-#{$i} {
     @include w(#{$decimal-i}rem);
   }
 }
+
+
+

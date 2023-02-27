@@ -20,24 +20,28 @@
     z-index: 1000;
     margin-top: -4.1rem;
     
-        h1 {
-            margin: 4rem;
-        }
-
         .overview {
             margin: 2rem 0;
             display: flex;
             justify-content: space-between;
+            @include responsive(md) {
+                flex-direction: column;
+              }
         }
 
         .right-section-2 {
             width: 30rem;
             height: 8.4rem;
+            @include responsive(md) {
+                margin-top: 4rem;
+              }
+            
         }
 }
 
 
 .card-default {
+  
     .home-article {
         :nth-child(3) {
             display: flex;
@@ -61,8 +65,11 @@
                 border-radius: 100px;
                 margin-right: 0.8rem;
             }
+
     }
 }
+
+
 
 
 .card-default-img {
