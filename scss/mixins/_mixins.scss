@@ -51,3 +51,9 @@
     }
   }
 }
+
+@each $key, $val in $rem-list {
+  .p-#{key} {
+    padding: $val;
+  }
+}
