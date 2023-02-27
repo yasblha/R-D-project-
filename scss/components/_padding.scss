@@ -1,6 +1,34 @@
 @for $i from 0 through 100 {
     $decimal-i: calc(#{$i} / 10);
-    .pad-#{$i} {
-      padding: #{$decimal-i}rem;
+    .pr-#{$i} {
+      @include pr(#{$decimal-i}rem);
+    }
+  }
+  
+  @for $i from 0 through 100 {
+    $decimal-i: calc(#{$i} / 10);
+    .pl-#{$i} {
+      @include pl(#{$decimal-i}rem);
+    }
+  }
+  
+  @for $i from 0 through 100 {
+    $decimal-i: calc(#{$i} / 10);
+    .pt-#{$i} {
+      @include pt(#{$decimal-i}rem);
+    }
+  }
+  
+  @for $i from 0 through 100 {
+    $decimal-i: calc(#{$i} / 10);
+    .pb-#{$i} {
+      @include pb(#{$decimal-i}rem);
+    }
+  }
+  
+  @for $i from 0 through 100 {
+    $decimal-i: calc(#{$i} / 10);
+    .p-#{$i} {
+      @include p(#{$decimal-i}rem);
     }
   }

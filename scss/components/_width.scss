@@ -1,0 +1,6 @@
+@for $i from 0 through 100 {
+  $decimal-i: calc(#{$i} / 10);
+  .w-#{$i} {
+    @include w(#{$decimal-i}rem);
+  }
+}

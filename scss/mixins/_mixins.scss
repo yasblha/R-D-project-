@@ -6,6 +6,7 @@
   }
 }
 
+//margin
 @mixin ml($value) {
   margin-left: $value;
 }
@@ -21,6 +22,35 @@
 @mixin mb($value) {
   margin-bottom: $value;
 }
+
+
+//padding
+@mixin pr($value) {
+  padding-right: $value;
+}
+
+@mixin pl($value) {
+  padding-left: $value;
+}
+
+@mixin pt($value) {
+  padding-top: $value;
+}
+
+@mixin pb($value) {
+  padding-bottom: $value;
+}
+
+@mixin p($value) {
+  padding: $value;
+}
+
+//width
+@mixin w($value) {
+  width: $value;
+}
+
+
 
 @mixin absCenter {
   position: abosolute;
