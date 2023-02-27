@@ -16,16 +16,26 @@
     background-color: $color-background;
     border-radius: 0.5rem;
     padding-left: 3rem; 
-    padding-right: 1rem;
+    padding-right: 3rem;
     z-index: 1000;
     margin-top: -4.1rem;
     
+    @include responsive(md) {
+        width: 47.1rem;
+      }
+
         .overview {
             margin: 2rem 0;
             display: flex;
             justify-content: space-between;
             @include responsive(md) {
                 flex-direction: column;
+              }
+        }
+
+        .additional {
+            @include responsive(md) {
+                margin-top: 10rem;
               }
         }
 
