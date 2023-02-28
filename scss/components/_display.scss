@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.block {
+  display: block;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -27,6 +31,12 @@
 
 .width-half {
   width: 50%;
+}
+
+.width-half-sm {
+  @include responsive(md) {
+    width: 50% !important ;
+  }
 }
 
 .width-quarter {

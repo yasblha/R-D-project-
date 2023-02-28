@@ -15,6 +15,10 @@
   height: 3rem;
   overflow: hidden; 
   border-bottom: 1px solid $color-grey-doux;
+  @include responsive(md) {
+    width: 100% !important;
+    margin-top: 2rem;
+  }
     &::after {
   content: '\276F';
   position: absolute;
@@ -25,6 +29,7 @@
   pointer-events: none;
   transform: rotate(90deg);
   background-color: $color-background;
+  
 }
 
   select {
@@ -38,6 +43,7 @@
     margin: 0;
     padding-left: 1.5rem; 
     cursor: pointer;
+    margin-bottom: 2rem;
   }
 }
 
@@ -48,5 +54,8 @@
   background-color: $color-background;
   padding: 0.5rem 0rem;
   width: 12.2rem;
+  @include responsive(md) {
+    width: 13rem;
+  }
     
 }
