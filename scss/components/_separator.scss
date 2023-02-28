@@ -3,7 +3,34 @@
     border: 0;
     height: 1px;   
     width: 57.1rem;
+    @include responsive(md) {
+        width: 100%;
+      }
 }
+
+
+.separator-57-90-sm {
+    background: $color-grey;
+    border: 0;
+    height: 1px;   
+    width: 57.1rem;
+    @include responsive(md) {
+        width: 90%;
+        margin-left: 5%;
+      }
+}
+
+.separator-57-none {
+    background: $color-grey;
+    border: 0;
+    height: 1px;   
+    width: 57.1rem;
+    @include responsive(md) {
+        display: none;
+      }
+}
+
+
 
 .separator-54 {
     background: $color-grey;
@@ -28,10 +55,13 @@
 }
 
 .separator-28 {
-    background: $color-grey;
+    background: $color-grey-doux;
     border: 0;
     height: 1px;   
     width: 28rem;
+    @include responsive(md) {
+        width: 100%;
+      }
 }
 
 .separator-24 {

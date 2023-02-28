@@ -66,7 +66,7 @@
     }
   }
   @if $breakpoint == md {
-    @media only screen and (max-width: 840px) {
+    @media only screen and (max-width: 849px) {
       @content;
     }
   }
