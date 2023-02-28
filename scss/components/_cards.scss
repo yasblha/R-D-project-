@@ -8,20 +8,29 @@
     margin-top: -4.1rem;
     padding: 0 1.2rem;
     filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+    @include responsive(md) {
+        margin-top: 18.9rem;
+        margin-left: 0rem !important;
+        width: 90%;
+        align-self: center;
+        height: 333px;
+      }
 }
+
 
 .card-m {
     width: 57rem;
     height: 129rem;
     background-color: $color-background;
     border-radius: 0.5rem;
-    padding-left: 3rem; 
-    padding-right: 3rem;
     z-index: 1000;
-    margin-top: -4.1rem;
+    margin-top: -6.1rem;
     
     @include responsive(md) {
-        width: 47.1rem;
+        width: 90%;
+        align-self: center;
+        padding-right: 0rem !important ;
+        padding-left: 0rem !important;
       }
 
         .overview {
@@ -92,3 +101,4 @@
             border-radius: $border-radius-10;
         }
 }
+
