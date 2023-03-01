@@ -132,3 +132,18 @@
   margin-top: 1.4rem;
   cursor: pointer;
 }
+
+.button-m {
+  color: $color-blanc;
+  background-color: $color-button;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  border-radius: $border-radius-5;
+  border: none;
+  margin-top: 1.4rem;
+  cursor: pointer;
+  width: 100%;
+}
+
