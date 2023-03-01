@@ -9,5 +9,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 0rem;
+
+  .sous-p{
+    margin-left: 1.5rem;
+  }
+
+  .langue{
+    margin-right: 1.5rem;
+  }
 }

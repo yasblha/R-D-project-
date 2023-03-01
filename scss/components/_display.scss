@@ -3,7 +3,11 @@
 }
 
 .block {
-  display: block;
+  display: block !important;
+}
+
+.hidden {
+  display: none;
 }
 
 .flex-center {
