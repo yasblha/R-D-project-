@@ -1,4 +1,5 @@
 .types-container {
+    position: relative;
     width: 100%;
     overflow-x: auto; /* faire défiler horizontalement */
     white-space: nowrap; /* empêcher les sauts de ligne */
@@ -12,14 +13,20 @@
   }
   
   .category {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 3rem;
+    cursor: pointer;
+  }
+
+  .category.active {
+    opacity: 0.7; /* rendre la catégorie sélectionnée plus foncée */
   }
   
   .category img {
-    width: 5rem;
+    //width: 5rem;
     height: 5rem;
   }
   
@@ -29,4 +36,11 @@
     text-align: center;
   }
   
+  .line {
+    position: absolute;
+    bottom: -3px; /* positionner la ligne en bas des catégories */
+    height: 3px;
+    background-color: red; /* couleur de la ligne */
+    transition: all 0.3s ease; /* ajouter une transition pour l'animation */
+  }
   
