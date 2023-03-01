@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/main.css">
-    <title>Airbnb Mobile</title>
+    <script defer src="./js/slider.js"></script>
+    <title>R & D</title>
   </head>
   <body  >
     <header>
@@ -25,9 +26,14 @@
     </header>
     <main class="layout-home" >
       <section>
-      
+        
         <div class="layout-card-default" >
-          <article class="card-default" >
+          <button class="button-slider" data-type="indien" >INDIEN</button>
+          <button class="button-slider" data-type="burger" >BURGER</button>
+          <button class="button-slider" data-type="pizza" >PIZZA</button>
+          <button class="button-slider" data-type="français" >FRANCAIS</button>
+
+          <article class="card-default hidden " data-type="indien" >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -37,7 +43,7 @@
             <button class="button-xs" >3:30 PM</button>
           </article>
           
-          <article class="card-default" >
+          <article class="card-default hidden " data-type="français"  >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -47,7 +53,7 @@
             <button class="button-xs" >3:30 PM</button>
           </article>
 
-          <article class="card-default" >
+          <article class="card-default hidden " data-type="pizza" >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -57,7 +63,7 @@
             <button class="button-xs" >3:30 PM</button>
           </article>
 
-          <article class="card-default" >
+          <article class="card-default hidden " data-type="burger" >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -67,7 +73,7 @@
             <button class="button-xs" >3:30 PM</button>
           </article>
 
-          <article class="card-default" >
+          <article class="card-default hidden " data-type="français" >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -77,7 +83,7 @@
             <button class="button-xs" >3:30 PM</button>
           </article>
 
-          <article class="card-default" >
+          <article class="card-default hidden " data-type="français" >
             <figure class="card-default-img" > <a href="restaurant.html"> <img src="assets/home-restaurant1.jpg" alt="image home illustrant chaque restaurant" ></a> </figure>
             <div class="mt-13" ><p>La Cour</p></div>
             <div class="flex mt-11  " ><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"><img src="./assets/star.svg" alt="Etoile pour la note"> <p class="ml-11" >571 reviews</p></div>
@@ -100,7 +106,7 @@
       <p class="sous-p">
         © 2023 Easy R&D . Confidentialté . Conditions générales
       </p>
-      <p>
+      <p class="langue" >
         <svg
           width="15"
           height="14"
