@@ -18,9 +18,9 @@
 .flex-center-col-sm {
   display: flex;
   justify-content: center;
-    @include responsive(md) {
-      flex-direction: column;
-    }
+  @include responsive(md) {
+    flex-direction: column;
+  }
 }
 
 .flex-center-col {
@@ -29,6 +29,11 @@
   flex-direction: column;
   align-items: center;
 }
+.flex-inline-center {
+  display: inline-flex;
+  justify-content: center;
+}
+
 .width-full {
   width: 100%;
 }
@@ -51,8 +56,11 @@
   width: auto;
 }
 
-
 .img-full {
   width: 100%;
   height: 44rem;
+}
+
+.text-center {
+  text-align: center;
 }
