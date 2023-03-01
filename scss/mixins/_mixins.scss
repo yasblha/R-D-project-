@@ -23,7 +23,6 @@
   margin-bottom: $value;
 }
 
-
 //padding
 @mixin pr($value) {
   padding-right: $value;
@@ -49,8 +48,6 @@
 @mixin w($value) {
   width: $value;
 }
-
-
 
 @mixin absCenter {
   position: abosolute;
@@ -79,11 +76,5 @@
     @media only screen and (max-width: 1440px) {
       @content;
     }
-  }
-}
-
-@each $key, $val in $rem-list {
-  .p-#{key} {
-    padding: $val;
   }
 }

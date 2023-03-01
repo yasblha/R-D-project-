@@ -1,8 +1,0 @@
-@function generate-rem-list($max, $step) {
-  $list: ();
-  @for $i from 1 through math.div($max, $step) {
-    $value: calc(#{$i * $step / 10});
-    $list: append($list, $value * 1rem);
-  }
-  @return $list;
-}
