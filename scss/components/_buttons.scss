@@ -85,15 +85,17 @@
   }
 }
 
-.social-buttons {
-  display: block;
-  font-weight: book;
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0px;
   border: 1px solid;
   background-color: transparent;
-  border-radius: $border-radius-10;
+  border-radius: $border-radius-20;
   &.fb-btn {
     background-color: $color-social-button-fb;
-    
+    color: white;
   }
 }
 
@@ -146,4 +148,3 @@
   cursor: pointer;
   width: 100%;
 }
-
