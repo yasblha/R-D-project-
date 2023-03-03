@@ -40,7 +40,7 @@
     position: absolute;
     bottom: -3px; /* positionner la ligne en bas des catégories */
     height: 3px;
-    background-color: red; /* couleur de la ligne */
+    background-color: $color-text; /* couleur de la ligne */
     transition: all 0.3s ease; /* ajouter une transition pour l'animation */
   }
   
