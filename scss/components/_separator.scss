@@ -81,7 +81,7 @@
   transform: rotate(90deg);
   position: absolute;
   width: 52rem;
-  @include responsive(md) {
-    width: 100%;
+  @include responsive(xs) {
+    visibility: hidden;
   }
 }
