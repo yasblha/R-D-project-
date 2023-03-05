@@ -1,73 +1,87 @@
 .separator-57 {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 57.1rem;
-    @include responsive(md) {
-        width: 100%;
-      }
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 57.1rem;
+  @include responsive(md) {
+    width: 100%;
+  }
 }
 
-
 .separator-57-90-sm {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 57.1rem;
-    @include responsive(md) {
-        width: 90%;
-        margin-left: 5%;
-      }
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 57.1rem;
+  @include responsive(md) {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 .separator-57-none {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 57.1rem;
-    @include responsive(md) {
-        display: none;
-      }
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 57.1rem;
+  @include responsive(md) {
+    display: none;
+  }
 }
-
-
 
 .separator-54 {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 54.3rem;
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 54.3rem;
 }
 
-
 .separator-40 {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 40.2rem;
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 40.2rem;
 }
 
 .separator-39 {
-    background: $color-grey-doux;
-    border: 0;
-    height: 1px;   
-    width: 39.7rem;
+  background: $color-grey-doux;
+  border: 0;
+  height: 1px;
+  width: 39.7rem;
 }
 
 .separator-28 {
-    background: $color-grey-doux;
-    border: 0;
-    height: 1px;   
-    width: 28rem;
-    @include responsive(md) {
-        width: 100%;
-      }
+  background: $color-grey-doux;
+  border: 0;
+  height: 1px;
+  width: 28rem;
+  @include responsive(md) {
+    width: 100%;
+  }
 }
 
 .separator-24 {
-    background: $color-grey;
-    border: 0;
-    height: 1px;   
-    width: 24rem;
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 24rem;
 }
-
+.vertical-separator-24 {
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  width: 24rem;
+  transform: rotate(90deg);
+  position: absolute;
+}
+.vertical-separator-45 {
+  background: $color-grey;
+  border: 0;
+  height: 1px;
+  transform: rotate(90deg);
+  position: absolute;
+  width: 52rem;
+  @include responsive(md) {
+    width: 100%;
+  }
+}

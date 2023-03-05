@@ -1,0 +1,18 @@
+@for $i from 1 through 10000 {
+  $decimal-i: calc($i / 10);
+  .top-#{$i} {
+    @include top(#{$decimal-i}rem);
+  }
+
+  .left-#{$i} {
+    @include left(#{$decimal-i}rem);
+  }
+
+  .right-#{$i} {
+    @include right(#{$decimal-i}rem);
+  }
+
+  .bottom-#{$i} {
+    @include bottom(#{$decimal-i}rem);
+  }
+}

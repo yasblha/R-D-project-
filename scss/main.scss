@@ -1,4 +1,5 @@
 //Import variables
+
 @import 'variables/variables';
 @import 'functions/functions';
 
@@ -14,21 +15,23 @@
 @import 'layout/home-card';
 
 // Import component styles
-@import "components/buttons";
-@import "components/forms";
-@import "components/cards";
-@import "components/modals";
-@import "components/header";
-@import "components/separator";
-@import "components/resto-card-overview";
-@import "components/display";
-@import "components/footer";
-@import "components/input";
-@import "components/select";
-@import "components/margin";
-@import "components/padding";
-@import "components/width";
-@import "components/resto_types";
+@import 'components/buttons';
+@import 'components/grid';
+@import 'components/placement';
+@import 'components/forms';
+@import 'components/cards';
+@import 'components/modals';
+@import 'components/header';
+@import 'components/separator';
+@import 'components/resto-card-overview';
+@import 'components/display';
+@import 'components/footer';
+@import 'components/input';
+@import 'components/select';
+@import 'components/margin';
+@import 'components/padding';
+@import 'components/width';
+@import 'components/resto_types';
 
 // Import page styles
 @import 'pages/home';
