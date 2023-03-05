@@ -2,7 +2,9 @@
     position: relative;
     width: 100%;
     overflow-x: auto; /* faire défiler horizontalement */
+    overflow-y: hidden;
     white-space: nowrap; /* empêcher les sauts de ligne */
+    //-webkit-overflow-scrolling: touch;
   }
   
   .categories-wrapper {
