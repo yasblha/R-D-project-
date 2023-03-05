@@ -1,14 +1,3 @@
-/* function afficherElements(dataAttr) {
-    // Sélectionner tous les éléments avec l'attribut de données spécifié
-    const elements = document.querySelectorAll(`[data-type="${dataAttr}"]`);
-  
-    // Ajouter la classe "block" à chaque élément sélectionné
-    elements.forEach(element => {
-      element.classList.add('block');
-    });
-  } */
-
-
   function afficherElements(dataAttr) {
   // Sélectionner tous les éléments avec l'attribut de données spécifié
   const elements = document.querySelectorAll(`[data-type="${dataAttr}"]`);
