@@ -78,3 +78,16 @@
     }
   }
 }
+
+@mixin top($value) {
+  top: $value;
+}
+@mixin bottom($value) {
+  bottom: $value;
+}
+@mixin right($value) {
+  right: $value;
+}
+@mixin left($value) {
+  left: $value;
+}

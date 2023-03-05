@@ -39,7 +39,15 @@
   align-items: center;
   justify-content: center;
 }
+.flex-inline-center-around {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.width-lg {
+  width: 80%;
+}
 .width-full {
   width: 100%;
 }
@@ -70,3 +78,4 @@
 .text-center {
   text-align: center;
 }
+

@@ -8,163 +8,176 @@
     <link rel="stylesheet" type="text/css" href="./dist/main.css" />
   </head>
   <body>
-    <main class="flex-center-col">
-      <section class="flex-center-col">
-        <div><img src="./assets/Logo.svg" alt="Logo easy R & D" /></div>
-        <!-- LOGO -->
-        <div class="text-center">
-          <h1>
-            Bienvenue chez <br />
-            Easy Reserve & Dine.
-          </h1>
-        </div>
-        <!-- UNDER LOGO TEXT -->
-        <div class="width-half p-5 mt-20">
-          <form class="flex-center-col">
-            <div class="width-full flex-center mb-20">
-              <select
-                name="phoneNumberCountry"
-                class="select-input-1 width-full"
-              >
-                <option value="">France (+33)</option>
-                <option value="">option2</option>
-              </select>
+    <main class="grid">
+      <div class="row mt-60">
+        <div class="col col-5">
+          <section class="flex-center-col">
+            <div><img src="./assets/Logo.svg" alt="Logo easy R & D" /></div>
+            <!-- LOGO -->
+            <div class="text-center">
+              <h1>
+                Bienvenue chez <br />
+                Easy Reserve & Dine.
+              </h1>
             </div>
-            <div class="flex-center width-full mb-15">
-              <input
-                type="tel"
-                name="phoneNumber"
-                class="text-input-default"
-                placeholder="Numéro de téléphone"
-              />
+            <!-- UNDER LOGO TEXT -->
+            <div class="width-lg p-5 mt-20">
+              <form class="flex-center-col">
+                <div class="width-full flex-center mb-20">
+                  <select
+                    name="phoneNumberCountry"
+                    class="select-input-1 width-full"
+                  >
+                    <option value="">France (+33)</option>
+                    <option value="">option2</option>
+                  </select>
+                </div>
+                <div class="flex-center width-full mb-15">
+                  <input
+                    type="tel"
+                    name="phoneNumber"
+                    class="text-input-default"
+                    placeholder="Numéro de téléphone"
+                  />
+                </div>
+                <div class="mb-15">
+                  <p class="ml-10 mr-10">
+                    Nous vous appellerons ou vous enverrons un SMS pour
+                    confirmer votre numéro. Les frais standards d'envoi de
+                    messages et d'échange de données s'appliquent.<br />
+                    Politique de confidentialité.
+                  </p>
+                </div>
+                <div class="flex-center width-full mb-20">
+                  <button class="button-bg-blue width-full" type="submit">
+                    Continuer
+                  </button>
+                </div>
+              </form>
             </div>
-            <div class="mb-15">
-              <p class="ml-10 mr-10">
-                Nous vous appellerons ou vous enverrons un SMS pour confirmer
-                votre numéro. Les frais standards d'envoi de messages et
-                d'échange de données s'appliquent.<br />
-                Politique de confidentialité.
-              </p>
-            </div>
-            <div class="flex-center width-full mb-20">
-              <button class="button-bg-blue width-full" type="submit">
-                Continuer
-              </button>
-            </div>
-          </form>
+          </section>
         </div>
         <!-- FORM CONTAINER -->
-        <div class="flex-inline-center mb-20">
-          <hr class="separator-24 mt-9" />
-          <span class="pr-10 pl-10 sous-p">Ou</span>
-          <hr class="separator-24 mt-9" />
+        <div class="col col-1 flex-center-col">
+          <div class="flex-align-center mb-20">
+            <div class="flex-align-center">
+              <hr class="vertical-separator-45 mt-50 mb-50" />
+              <span
+                class="p-10 sous-p"
+                style="background-color: #fefefe; z-index: 10"
+                >Ou</span
+              >
+            </div>
+            <!-- SPERATOR -->
+          </div>
         </div>
-        <!-- SPERATOR -->
-      </section>
-      <section class="flex-center-col mb-20">
-        <div class="flex-inline-center">
-          <button class="social-button fb-btn p-10 flex-inline-center w-290">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 20 21"
-              class="w-20 mr-28"
-            >
-              <path
-                fill="#FEFEFE"
-                d="M19.392 10.835c0-5.45-4.33-9.873-9.667-9.873C4.39.962.06 5.385.06 10.835c0 4.779 3.325 8.758 7.733 9.676v-6.714H5.859v-2.962h1.933V8.367c0-1.906 1.518-3.456 3.383-3.456h2.417v2.962h-1.933a.98.98 0 0 0-.967.987v1.975h2.9v2.962h-2.9v6.862c4.882-.494 8.7-4.7 8.7-9.824Z"
-              />
-            </svg>
+        <div class="col col-5 flex-center-col">
+          <section class="flex-center-col mb-20">
+            <div class="flex-inline-center">
+              <button class="social-button fb-btn p-10 flex-inline-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 20 21"
+                  class="w-20 mr-28"
+                >
+                  <path
+                    fill="#FEFEFE"
+                    d="M19.392 10.835c0-5.45-4.33-9.873-9.667-9.873C4.39.962.06 5.385.06 10.835c0 4.779 3.325 8.758 7.733 9.676v-6.714H5.859v-2.962h1.933V8.367c0-1.906 1.518-3.456 3.383-3.456h2.417v2.962h-1.933a.98.98 0 0 0-.967.987v1.975h2.9v2.962h-2.9v6.862c4.882-.494 8.7-4.7 8.7-9.824Z"
+                  />
+                </svg>
 
-            Continuer avec Facebook
-          </button>
-          <button class="social-button apple-btn p-10 w-290">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 19 24"
-              class="w-19 mr-28 ml-13 block"
-            >
-              <path
-                fill="#000"
-                d="M15.559 22.194c-1.18 1.17-2.469.985-3.709.43-1.313-.566-2.517-.59-3.901 0-1.734.764-2.65.542-3.685-.43C-1.612 16-.746 6.57 5.926 6.227c1.625.086 2.757.91 3.708.985 1.421-.296 2.782-1.145 4.3-1.034 1.817.147 3.19.886 4.093 2.215-3.757 2.302-2.866 7.362.578 8.778-.686 1.846-1.577 3.68-3.058 5.035l.012-.012ZM9.514 6.153c-.18-2.745 1.999-5.01 4.503-5.232.35 3.176-2.817 5.54-4.503 5.232Z"
-              />
-            </svg>
-            Continuer avec Apple
-          </button>
+                Continuer avec Facebook
+              </button>
+              <button class="social-button apple-btn p-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 19 24"
+                  class="w-19 mr-28 ml-13 block"
+                >
+                  <path
+                    fill="#000"
+                    d="M15.559 22.194c-1.18 1.17-2.469.985-3.709.43-1.313-.566-2.517-.59-3.901 0-1.734.764-2.65.542-3.685-.43C-1.612 16-.746 6.57 5.926 6.227c1.625.086 2.757.91 3.708.985 1.421-.296 2.782-1.145 4.3-1.034 1.817.147 3.19.886 4.093 2.215-3.757 2.302-2.866 7.362.578 8.778-.686 1.846-1.577 3.68-3.058 5.035l.012-.012ZM9.514 6.153c-.18-2.745 1.999-5.01 4.503-5.232.35 3.176-2.817 5.54-4.503 5.232Z"
+                  />
+                </svg>
+                Continuer avec Apple
+              </button>
+            </div>
+            <div class="flex-inline-center">
+              <button class="social-button google-btn p-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 22"
+                  class="w-20 mr-28 ml-19 block"
+                >
+                  <g clip-path="url(#a)">
+                    <path
+                      fill="#4285F4"
+                      d="M20.168 11.055c0-.838-.066-1.45-.208-2.083h-9.257v3.782h5.434c-.11.94-.701 2.356-2.016 3.307l-.019.126 2.927 2.344.203.021c1.862-1.778 2.936-4.394 2.936-7.497Z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M10.702 21.021c2.662 0 4.897-.906 6.53-2.469l-3.112-2.491c-.832.6-1.95 1.02-3.418 1.02-2.607 0-4.82-1.779-5.609-4.236l-.115.01-3.044 2.435-.04.114c1.622 3.33 4.952 5.617 8.808 5.617Z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.094 12.845a6.465 6.465 0 0 1-.328-2.016c0-.702.12-1.382.317-2.016l-.005-.135-3.082-2.474-.1.05a10.483 10.483 0 0 0 0 9.15l3.198-2.56Z"
+                    />
+                    <path
+                      fill="#EB4335"
+                      d="M10.702 4.578c1.851 0 3.1.826 3.812 1.517l2.783-2.808c-1.709-1.642-3.933-2.65-6.595-2.65-3.856 0-7.186 2.287-8.807 5.617l3.187 2.56c.8-2.458 3.013-4.236 5.62-4.236Z"
+                    />
+                  </g>
+                  <defs>
+                    <clippath id="a">
+                      <path fill="#fff" d="M.844.637h19.333V21.09H.844z" />
+                    </clippath>
+                  </defs>
+                </svg>
+                Continuer avec Google
+              </button>
+              <button class="social-button email-btn p-10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 21 17"
+                  class="w-20 mr-29 ml-13 flex-center-col-sm"
+                >
+                  <path
+                    stroke="#000"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1.555 3.597a1.988 1.988 0 0 1 1.99-1.989h13.931a1.99 1.99 0 0 1 1.99 1.989v9.943a1.988 1.988 0 0 1-1.99 1.989H3.545a1.991 1.991 0 0 1-1.99-1.989V3.597Z"
+                  />
+                  <path
+                    stroke="#000"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1.555 3.597 8.956 5.966 8.956-5.966"
+                  />
+                </svg>
+                Continuer avec Email
+              </button>
+            </div>
+          </section>
+          <!-- SOCIAL BUTTONS -->
+          <hr class="separator-57" />
+          <!-- SPERATOR -->
+          <section>
+            <div class="flex-center-col mt-25">
+              <h3 class="mb-23">Vous n’avez pas de compte?</h3>
+              <button class="button-bg-blue width-full mt-5" type="submit">
+                Inscrivez-vous
+              </button>
+            </div>
+          </section>
         </div>
-        <div class="flex-inline-center">
-          <button class="social-button google-btn p-10 w-290">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 21 22"
-              class="w-20 mr-28 ml-19 block"
-            >
-              <g clip-path="url(#a)">
-                <path
-                  fill="#4285F4"
-                  d="M20.168 11.055c0-.838-.066-1.45-.208-2.083h-9.257v3.782h5.434c-.11.94-.701 2.356-2.016 3.307l-.019.126 2.927 2.344.203.021c1.862-1.778 2.936-4.394 2.936-7.497Z"
-                />
-                <path
-                  fill="#34A853"
-                  d="M10.702 21.021c2.662 0 4.897-.906 6.53-2.469l-3.112-2.491c-.832.6-1.95 1.02-3.418 1.02-2.607 0-4.82-1.779-5.609-4.236l-.115.01-3.044 2.435-.04.114c1.622 3.33 4.952 5.617 8.808 5.617Z"
-                />
-                <path
-                  fill="#FBBC05"
-                  d="M5.094 12.845a6.465 6.465 0 0 1-.328-2.016c0-.702.12-1.382.317-2.016l-.005-.135-3.082-2.474-.1.05a10.483 10.483 0 0 0 0 9.15l3.198-2.56Z"
-                />
-                <path
-                  fill="#EB4335"
-                  d="M10.702 4.578c1.851 0 3.1.826 3.812 1.517l2.783-2.808c-1.709-1.642-3.933-2.65-6.595-2.65-3.856 0-7.186 2.287-8.807 5.617l3.187 2.56c.8-2.458 3.013-4.236 5.62-4.236Z"
-                />
-              </g>
-              <defs>
-                <clippath id="a">
-                  <path fill="#fff" d="M.844.637h19.333V21.09H.844z" />
-                </clippath>
-              </defs>
-            </svg>
-            Continuer avec Google
-          </button>
-          <button class="social-button email-btn p-10 w-290">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 21 17"
-              class="w-20 mr-29 ml-13 flex-center-col-sm"
-            >
-              <path
-                stroke="#000"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M1.555 3.597a1.988 1.988 0 0 1 1.99-1.989h13.931a1.99 1.99 0 0 1 1.99 1.989v9.943a1.988 1.988 0 0 1-1.99 1.989H3.545a1.991 1.991 0 0 1-1.99-1.989V3.597Z"
-              />
-              <path
-                stroke="#000"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m1.555 3.597 8.956 5.966 8.956-5.966"
-              />
-            </svg>
-            Continuer avec Email
-          </button>
-        </div>
-      </section>
-      <!-- SOCIAL BUTTONS -->
-      <hr class="separator-57" />
-      <!-- SPERATOR -->
-      <section>
-        <div class="flex-center-col mt-20">
-          <h3 class="mb-23">Vous n’avez pas de compte?</h3>
-          <button class="button-bg-blue width-full" type="submit">
-            Inscrivez-vous
-          </button>
-        </div>
-      </section>
-      <!-- REGISTER BUTTON -->
+        <!-- REGISTER BUTTON -->
+      </div>
     </main>
     <footer>
       <div class="footer-container">
