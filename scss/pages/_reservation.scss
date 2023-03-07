@@ -1,0 +1,17 @@
+.responsive-margin-top {
+  @include responsive(sm) {
+    margin-top: 6rem;
+  }
+}
+.restaurant-img-xs {
+  @include responsive(sm) {
+    width: 90px;
+    height: 70px;
+  }
+}
+.rating {
+  @include responsive(sm) {
+    width: 16px;
+    height: 16px;
+  }
+}

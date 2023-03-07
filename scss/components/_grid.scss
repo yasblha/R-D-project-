@@ -15,15 +15,12 @@
   margin-right: math.div($grid-gutter, 2);
   @include responsive(sm) {
     flex-wrap: wrap;
+    margin: 0;
   }
 }
 .row-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-  margin-left: math.div($grid-gutter, 2);
-  margin-right: math.div($grid-gutter, 2);
   @include responsive(sm) {
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
   }
 }
 
