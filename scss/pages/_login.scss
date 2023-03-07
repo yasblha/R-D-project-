@@ -21,3 +21,8 @@ footer {
     align-items: center;
   }
 }
+.row {
+  @include responsive(sm) {
+    margin-top: 3rem;
+  }
+}

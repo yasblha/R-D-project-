@@ -65,6 +65,12 @@
   border: 0;
   height: 1px;
   width: 24rem;
+  @include responsive(md) {
+    width: 22rem;
+  }
+  @include responsive(sm) {
+    width: 15rem;
+  }
 }
 .vertical-separator-24 {
   background: $color-grey;
