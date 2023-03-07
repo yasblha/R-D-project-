@@ -187,3 +187,17 @@
   cursor: pointer;
   width: 100%;
 }
+
+.button-return {
+  @include responsive(sm) {
+    background-color: $color-background;
+    display: block !important;
+    top: 10px;
+    left: 6px;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    border: none;
+
+  }
+}
