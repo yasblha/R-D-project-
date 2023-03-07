@@ -17,6 +17,15 @@
     flex-wrap: wrap;
   }
 }
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: math.div($grid-gutter, 2);
+  margin-right: math.div($grid-gutter, 2);
+  @include responsive(sm) {
+    flex-wrap: wrap;
+  }
+}
 
 .col {
   flex-grow: 1;

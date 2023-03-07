@@ -6,6 +6,7 @@
   font-size: 1.8rem;
   font-weight: 400;
   color: white;
+  cursor: pointer;
   background: linear-gradient(to right, #454e6b, #29314b, #454e6b) !important;
   @include responsive(md) {
     width: 60%;
@@ -198,7 +199,6 @@
     height: 21px;
     border-radius: 100%;
     border: none;
-
   }
 }
 
@@ -209,13 +209,12 @@
     width: 22px;
     height: 21px;
     background-color: $color-background;
-    border-radius: 100%;  
+    border-radius: 100%;
     border: none;
   }
 }
 
 .button-like-desktop {
-
   top: 26px;
   right: 26px;
   background: none;
@@ -223,12 +222,12 @@
   border: none;
   margin: 1rem;
   cursor: pointer;
-    img {
-      width: 30px;
-      height: 29px;
-    }
+  img {
+    width: 30px;
+    height: 29px;
+  }
 
   @include responsive(sm) {
-   display: none !important;
+    display: none !important;
   }
 }
