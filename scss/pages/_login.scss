@@ -3,11 +3,7 @@
     width: 80%;
   }
 }
-footer {
-  @include responsive(sm) {
-    display: none;
-  }
-}
+
 .col-1 {
   @include responsive(sm) {
     display: none;

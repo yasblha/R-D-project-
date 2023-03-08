@@ -19,3 +19,8 @@
     margin-right: 5rem;
   }
 }
+footer {
+  @include responsive(sm) {
+    display: none;
+  }
+}
