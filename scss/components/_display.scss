@@ -98,3 +98,13 @@
 .text-center {
   text-align: center;
 }
+.visible-responsive {
+  @include responsive(sm) {
+    display: block;
+  }
+}
+.hidden-responsive {
+  @include responsive(sm) {
+    display: none;
+  }
+}
