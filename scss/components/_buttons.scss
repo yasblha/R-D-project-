@@ -91,6 +91,7 @@
   font-size: 1.6rem;
   width: 29rem;
   margin: 1.5rem;
+  padding: 1.3rem;
   border: 1px solid;
   background-color: transparent;
   border-radius: $border-radius-20;
@@ -100,7 +101,14 @@
   }
   @include responsive(lg) {
     margin: 0.5rem;
-    width: 20rem;
+    width: 25.5rem;
+    font-size: 1.4rem;
+  }
+  @include responsive(md) {
+    margin: 0.3rem;
+    width: 22.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
 }
 
