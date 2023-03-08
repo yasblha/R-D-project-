@@ -19,10 +19,15 @@
     margin-right: 5rem;
   }
 }
+footer {
+  @include responsive(sm) {
+    display: none;
+  }
+}
 
 
 /* Style pour les boutons du footer dans la version mobile */
-.footer-buttons {
+/*.footer-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,25 +46,25 @@
 .footer-button img {
   width: 1.6rem;
   height: 1.6rem;
-}
+}*/
 
 /* Cacher les boutons du footer dans la version desktop */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .footer-buttons {
     display: none;
   }
-}
+}*/
 
 /* Cacher le footer actuel dans la version mobile */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .footer-container {
     display: none;
   }
-}
+}*/
 
 
 /* Afficher les boutons en bas de l'écran en version mobile */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .footer-mobile {
     position: fixed;
     bottom: 0;
@@ -72,7 +77,7 @@
     align-items: center;
     z-index: 999;
   }
-}
+}*/
 
 /* @media (max-width: 767px) {
   .footer-container {
@@ -89,7 +94,7 @@
 } */
 
 /* Afficher le footer en bas de l'écran en version mobile */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   footer {
     position: fixed;
     bottom: 0;
@@ -99,4 +104,4 @@
     height:6.5rem;
     background-color: $color-background;
   }
-}
+}*/

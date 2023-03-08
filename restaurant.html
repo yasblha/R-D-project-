@@ -8,9 +8,12 @@
     <title>Restaurant</title>
 </head>
 <body >
+    <button class=" button-like-desktop absolute" ><img class="mt-2" src="./assets/like-restaurant-blanc.svg" alt="bouton de like desktop"></button>
     <div><img class="img-full" src="./assets/restaurant-header.jpg" alt="image de présentation restaurant"></div>
+    <button class=" button-return absolute hidden" ><a href="javascript:history.back()"> <img class="mr-2" src="./assets/return.svg" alt="bouton de retour"> </a> </button>
+    <button class=" button-like-mobile absolute hidden " ><img class="mt-2" src="./assets/like-restaurant.svg" alt="bouton de like mobile"></button>
     <div class="flex-center-col-sm" >
-        <div class="card-m  pr-30 pl-30" >
+        <div class="card-m  pr-30 pl-30">
            <div class="p-10" >
             <button class="button-none" ><p>Overview</p></button>
             <button class="button-none" ><p>Reservation</p></button>
@@ -23,8 +26,8 @@
            <div class="overview" >
             <div class="flex" >
                 <div>
-                  <div class="review flex" > <img class="icone" src="./assets/star.svg" alt="étoile pour les avis"  ><img src="./assets/star.svg" alt="étoile pour les avis" class="icone" ><img src="./assets/star.svg" alt="étoile pour les avis" class="icone" ><img src="./assets/star.svg" alt="étoile pour les avis" class="icone" ><img src="./assets/star.svg" alt="étoile pour les avis" class="icone"> <p class="ml-10" >571 reviews</p> </div>
-                  <div class="dollar flex mt-35 " > <img class="dollars" src="./assets/Dollars.svg" alt="Dollars"> <p class="ml-3" >30 $ and under</p>  <img class="icone ml-12 " src="./assets/Spoon.svg" alt="Cuilliere et fourchette"> <p class="ml-3" >Israeli</p> </div>
+                  <div class="review flex" > <img class="w-18 h-18" src="./assets/star.svg" alt="étoile pour les avis"  ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18"> <p class="ml-10" >571 reviews</p> </div>
+                  <div class="dollar flex mt-35 " > <img class="w-26 h-17" src="./assets/Dollars.svg" alt="Dollars"> <p class="ml-3" >30 $ and under</p>  <img class="w-18 h-18 ml-12 " src="./assets/Spoon.svg" alt="Cuilliere et fourchette"> <p class="ml-3" >Israeli</p> </div>
                 </div>
             </div>
             <div class="right-section-2" > <p>Paku Paku - Paris is a French restaurant - bar - brasserie - café located in the 6th arrondissement of Paris, in the Odéon district at the crossroads of Boulevard </p> </div>
@@ -38,7 +41,7 @@
               </div>
               <div class=" ml-11 " >
                 <p>Location</p>
-                <p class="boulevard" >12 boulevard de , Paris, 75017</p>
+                <p class="color-button" >12 boulevard de , Paris, 75017</p>
               </div>
             </div>
             
@@ -151,7 +154,7 @@
                 <input type="time" name="time" class="input-date-time ml-36 "  min="09:00" max="18:00" required value="13:30" >
               </div>
             </div>
-            <button class="button-m mt-22 " > <h4>Find a time</h4> </button>
+            <a href="./login.html"><button class="button-m mt-22 " > <h4>Find a time</h4> </button></a>
         </div>
     </div>
 </body>

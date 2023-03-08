@@ -23,7 +23,6 @@
 @import 'components/modals';
 @import 'components/header';
 @import 'components/separator';
-@import 'components/resto-card-overview';
 @import 'components/display';
 @import 'components/footer';
 @import 'components/input';
@@ -31,6 +30,7 @@
 @import 'components/margin';
 @import 'components/padding';
 @import 'components/width';
+@import 'components/height';
 @import 'components/resto_types';
 
 // Import page styles
@@ -38,6 +38,7 @@
 @import 'pages/about';
 @import 'pages/contact';
 @import 'pages/login';
+@import 'pages/reservation';
 
 // Import theme styles
 @import 'themes/default';

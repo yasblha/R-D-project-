@@ -1,107 +1,109 @@
 .card-xs {
-    width: 27.6rem;
-    height: 31rem;
-    background-color: $color-background;
-    margin-left: 4.5rem;
-    border-radius: 0.5rem;
-    z-index: 1000;
-    margin-top: -6.1rem;
-    padding: 0 1.2rem;
-    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
-    @include responsive(md) {
-        margin-top: 16.9rem;
-        margin-left: 0rem !important;
-        width: 80%;
-        align-self: center;
-        height: 333px;
-        padding: 0 5%;
-        margin-bottom: 8rem;
-      }
+  width: 27.6rem;
+  height: 31rem;
+  background-color: $color-background;
+  margin-left: 4.5rem;
+  border-radius: 0.5rem;
+  z-index: 1000;
+  margin-top: -6.1rem;
+  padding: 0 1.2rem;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+  @include responsive(md) {
+    margin-top: 16.9rem;
+    margin-left: 0rem !important;
+    width: 80%;
+    align-self: center;
+    height: 333px;
+    padding: 0 5%;
+    margin-bottom: 8rem;
+  }
 }
-
 
 .card-m {
-    width: 57rem;
-    height: 129rem;
-    background-color: $color-background;
-    border-radius: 0.5rem;
-    z-index: 1000;
-    margin-top: -6.1rem;
-    
+  width: 57rem;
+  height: 129rem;
+  background-color: $color-background;
+  border-radius: 0.5rem;
+  z-index: 1000;
+  margin-top: -6.1rem;
+
+  @include responsive(md) {
+    width: 90%;
+    align-self: center;
+    padding-right: 0rem !important ;
+    padding-left: 0rem !important;
+  }
+
+  .overview {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
     @include responsive(md) {
-        width: 90%;
-        align-self: center;
-        padding-right: 0rem !important ;
-        padding-left: 0rem !important;
-      }
+      flex-direction: column;
+    }
+  }
 
-        .overview {
-            margin: 2rem 0;
-            display: flex;
-            justify-content: space-between;
-            @include responsive(md) {
-                flex-direction: column;
-              }
-        }
+  .additional {
+    @include responsive(md) {
+      margin-top: 5rem;
+    }
+  }
 
-        .additional {
-            @include responsive(md) {
-                margin-top: 5rem;
-              }
-        }
-
-        .right-section-2 {
-            width: 30rem;
-            height: 8.4rem;
-            @include responsive(md) {
-                margin-top: 4rem;
-                width: 100%;
-              }
-            
-        }
+  .right-section-2 {
+    width: 30rem;
+    height: 8.4rem;
+    @include responsive(md) {
+      margin-top: 4rem;
+      width: 100%;
+    }
+  }
 }
-
 
 .card-default {
-  
-    .home-article {
-        :nth-child(3) {
-            display: flex;
-        }
+  .home-article {
+    :nth-child(3) {
+      display: flex;
     }
-    .card-price {
-        display: flex;
-        margin-top: 0.9rem;
-        color: $color-grey;
-        align-items: center;
-    
-            p:nth-child(1) {
-                font-weight: 700;
-            }
-    
-            &span {
-                width: 5px;
-                height: 5px;
-                background-color: $color-grey;
-                text-align: center;
-                border-radius: 100px;
-                margin-right: 0.8rem;
-            }
+  }
+  .card-price {
+    display: flex;
+    margin-top: 0.9rem;
+    color: $color-grey;
+    align-items: center;
 
+    p:nth-child(1) {
+      font-weight: 700;
     }
+
+    &span {
+      width: 5px;
+      height: 5px;
+      background-color: $color-grey;
+      text-align: center;
+      border-radius: 100px;
+      margin-right: 0.8rem;
+    }
+  }
 }
-
-
-
 
 .card-default-img {
-    width: 38.2rem;
-    height: 36.3rem;
-   
-        img {
-            width: 100%;
-            height: 100%;
-            border-radius: $border-radius-10;
-        }
+  width: 38.2rem;
+  height: 36.3rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius-10;
+  }
 }
 
+.card-long {
+  border: 1px solid $color-grey-doux;
+  width: 45rem;
+  height: 23rem;
+  border-radius: 12px;
+  @include responsive(md) {
+    width: 40rem;
+    height: 20rem;
+  }
+}

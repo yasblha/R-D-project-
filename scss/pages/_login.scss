@@ -1,50 +1,28 @@
-.login-container {
-  width: 50%;
+.separator-57 {
+  @include responsive(lg) {
+    width: 80%;
+  }
 }
-
-.login-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+footer {
+  @include responsive(sm) {
+    display: none;
+  }
 }
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.col-1 {
+  @include responsive(sm) {
+    display: none;
+  }
 }
-.login-form p {
-  font-size: 1.4rem;
-  font-weight: 200;
-  padding: 1.5rem;
-  width: 50rem;
+.social-area {
+  @include responsive(sm) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-.login-form .login-form button:hover {
-  transform: translateY(-0.2rem) !important;
-}
-
-.login-hr-wrapper {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.login-hr-wrapper hr {
-  width: 50rem;
-  z-index: 0;
-  border: 1px solid $color-grey-doux !important;
-}
-.login-hr-wrapper div {
-  background-color: $color-background;
-  z-index: 1;
-  display: inline-flex;
-  position: absolute;
-  padding: 0.5rem;
-  font-size: 1.6rem;
-  color: $color-grey;
+.row {
+  @include responsive(sm) {
+    margin-top: 3rem;
+  }
 }

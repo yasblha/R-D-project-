@@ -6,7 +6,12 @@
   font-size: 1.8rem;
   font-weight: 400;
   color: white;
+  cursor: pointer;
   background: linear-gradient(to right, #454e6b, #29314b, #454e6b) !important;
+  @include responsive(md) {
+    width: 60%;
+    font-size: 1.6rem;
+  }
 }
 .continue-btn {
   position: absolute;
@@ -134,7 +139,8 @@ nav {
   align-items: center;
   font-size: 1.6rem;
   width: 29rem;
-  margin: 1.5rem;
+  margin: 1.3rem;
+  padding: 1rem;
   border: 1px solid;
   background-color: transparent;
   border-radius: $border-radius-20;
@@ -142,9 +148,38 @@ nav {
     background-color: $color-social-button-fb;
     color: white;
   }
+  &.fb-btn svg {
+    @include responsive(md) {
+      height: 15px;
+      margin-left: 0.5rem;
+    }
+  }
+  &.google-btn svg {
+    @include responsive(lg) {
+      margin-left: 0.5rem;
+    }
+    @include responsive(md) {
+      height: 15px;
+      margin-left: 0.5rem;
+    }
+  }
+  &.apple-btn svg {
+    @include responsive(md) {
+      height: 15px;
+      margin-left: 0.5rem;
+    }
+  }
+  &.email-btn svg {
+    @include responsive(md) {
+      height: 13px;
+      margin-left: 0.5rem;
+    }
+  }
   @include responsive(lg) {
     margin: 0.5rem;
-    width: 20rem;
+    width: 21rem;
+    font-size: 1.2rem;
+    padding: 0.7rem;
   }
 }
 
@@ -196,4 +231,47 @@ nav {
   margin-top: 1.4rem;
   cursor: pointer;
   width: 100%;
+}
+
+.button-return {
+  @include responsive(sm) {
+    background-color: $color-background;
+    display: block !important;
+    top: 10px;
+    left: 12px;
+    width: 22px;
+    height: 21px;
+    border-radius: 100%;
+    border: none;
+  }
+}
+
+.button-like-mobile {
+  @include responsive(sm) {
+    top: 10px;
+    right: 12px;
+    width: 22px;
+    height: 21px;
+    background-color: $color-background;
+    border-radius: 100%;
+    border: none;
+  }
+}
+
+.button-like-desktop {
+  top: 26px;
+  right: 26px;
+  background: none;
+  color: inherit;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+  img {
+    width: 30px;
+    height: 29px;
+  }
+
+  @include responsive(sm) {
+    display: none !important;
+  }
 }
