@@ -6,12 +6,7 @@
   font-size: 1.8rem;
   font-weight: 400;
   color: white;
-  cursor: pointer;
   background: linear-gradient(to right, #454e6b, #29314b, #454e6b) !important;
-  @include responsive(md) {
-    width: 60%;
-    font-size: 1.6rem;
-  }
 }
 .continue-btn {
   position: absolute;
@@ -28,7 +23,8 @@
   line-height: 4.4rem;
   cursor: pointer;
 }
-/*.search-bar {
+
+.search-bar {
   position: relative;
   display: flex;
   align-items: center;
@@ -40,24 +36,25 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.search-bar-input {
+.search-bar-text1,
+.search-bar-text2 {
   font-family: 'Circular Std';
   font-style: normal;
   font-weight: 450;
-  font-size: 1.4rem;
   line-height: 2rem;
   font-feature-settings: 'pnum' on, 'lnum' on;
   text-align: left;
-  display: block;
-  width: 100%;
+  display: flex;
   margin-top: 0.18rem;
-  padding-left: 2.4rem;
-  border: none;
-  background-color: transparent;
-  color: #333333;
+  margin-right: 8rem;
 }
 
-.search-bar-input::placeholder {
+.search-bar-text1 {
+  font-size: 1.6rem;
+}
+
+.search-bar-text2 {
+  font-size: 1.4rem;
   color: #a0a0a0;
 }
 
@@ -84,54 +81,8 @@
     height: 5.4rem;
     border: 1px solid #a0a0a0 !important;
     /* transform: rotate(90deg); */
-   // padding: 0%;
-  //}
-//}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.search-bar {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  box-sizing: border-box;
-  background: #fefefe;
-  border: 1px solid #a0a0a0;
-  margin: 1.8rem;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.search-bar-icon {
-  position: absolute;
-  left: 1rem;
-  top: 1.48rem;
-  bottom: 1.58rem;
-  display: flex;
-  margin-right: 1.2rem;
-}
-
-.coeur-login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  height: 5.730481338500977rem;
-  width: 12.8rem;
-  border-radius: 3rem;
-  border: 1px solid #a0a0a0;
-  margin: 18.0966796875px;
-}
-
-.coeur-login-container .coeur-login-line {
-  height: 5.4rem;
-  border: 1px solid #a0a0a0 ;
-  padding: 0.2rem;
+    padding: 0%;
+  }
 }
 
 .social-button {
@@ -139,8 +90,7 @@ nav {
   align-items: center;
   font-size: 1.6rem;
   width: 29rem;
-  margin: 1.3rem;
-  padding: 1rem;
+  margin: 1.5rem;
   border: 1px solid;
   background-color: transparent;
   border-radius: $border-radius-20;
@@ -148,38 +98,9 @@ nav {
     background-color: $color-social-button-fb;
     color: white;
   }
-  &.fb-btn svg {
-    @include responsive(md) {
-      height: 15px;
-      margin-left: 0.5rem;
-    }
-  }
-  &.google-btn svg {
-    @include responsive(lg) {
-      margin-left: 0.5rem;
-    }
-    @include responsive(md) {
-      height: 15px;
-      margin-left: 0.5rem;
-    }
-  }
-  &.apple-btn svg {
-    @include responsive(md) {
-      height: 15px;
-      margin-left: 0.5rem;
-    }
-  }
-  &.email-btn svg {
-    @include responsive(md) {
-      height: 13px;
-      margin-left: 0.5rem;
-    }
-  }
   @include responsive(lg) {
     margin: 0.5rem;
-    width: 21rem;
-    font-size: 1.2rem;
-    padding: 0.7rem;
+    width: 20rem;
   }
 }
 
@@ -231,47 +152,4 @@ nav {
   margin-top: 1.4rem;
   cursor: pointer;
   width: 100%;
-}
-
-.button-return {
-  @include responsive(sm) {
-    background-color: $color-background;
-    display: block !important;
-    top: 10px;
-    left: 12px;
-    width: 22px;
-    height: 21px;
-    border-radius: 100%;
-    border: none;
-  }
-}
-
-.button-like-mobile {
-  @include responsive(sm) {
-    top: 10px;
-    right: 12px;
-    width: 22px;
-    height: 21px;
-    background-color: $color-background;
-    border-radius: 100%;
-    border: none;
-  }
-}
-
-.button-like-desktop {
-  top: 26px;
-  right: 26px;
-  background: none;
-  color: inherit;
-  border: none;
-  margin: 1rem;
-  cursor: pointer;
-  img {
-    width: 30px;
-    height: 29px;
-  }
-
-  @include responsive(sm) {
-    display: none !important;
-  }
 }
