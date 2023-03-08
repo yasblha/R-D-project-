@@ -8,7 +8,6 @@
     max-width: 849px;
   }
 }
-
 .row {
   display: flex;
   margin-left: math.div($grid-gutter, 2);
@@ -18,17 +17,16 @@
     margin: 0;
   }
 }
-.row-reverse {
-  @include responsive(sm) {
-    flex-direction: column-reverse;
-  }
-}
-
 .col {
   flex-grow: 1;
   flex-basis: 0;
   padding-left: math.div($grid-gutter, 2);
   padding-right: math.div($grid-gutter, 2);
+}
+.row-reverse {
+  @include responsive(sm) {
+    flex-direction: column-reverse;
+  }
 }
 
 // Generate classes for each column size

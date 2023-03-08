@@ -90,7 +90,8 @@
   align-items: center;
   font-size: 1.6rem;
   width: 29rem;
-  margin: 1.5rem;
+  margin: 1.2rem;
+  padding: 1.3rem;
   border: 1px solid;
   background-color: transparent;
   border-radius: $border-radius-20;
@@ -100,7 +101,14 @@
   }
   @include responsive(lg) {
     margin: 0.5rem;
-    width: 20rem;
+    width: 25.5rem;
+    font-size: 1.4rem;
+  }
+  @include responsive(md) {
+    margin: 0.3rem;
+    width: 22.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
 }
 
@@ -152,4 +160,22 @@
   margin-top: 1.4rem;
   cursor: pointer;
   width: 100%;
+}
+
+.button-like-desktop {
+  top: 26px;
+  right: 26px;
+  background: none;
+  color: inherit;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+  img {
+    width: 30px;
+    height: 29px;
+  }
+
+  @include responsive(sm) {
+    display: none !important;
+  }
 }

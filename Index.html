@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js%22%3E"></script>
     <script src="./js/jquery.js"></script>
     <script defer src="./js/slider.js"></script>
     <script defer src="./js/search.js"></script>
     <script defer src="./js/type_line.js"></script>
     <title>R & D</title>
-
   </head>
 
   <body>
@@ -26,7 +23,11 @@
             <img class="search-bar-icon" src="./assets/Search.svg" />
             <!--<p class="search-bar-text1">N'importe où,</p>
             <p class="search-bar-text2">Emplacement, restaurant, cuisine...</p>-->
-            <input class="search-bar-input" type="text" placeholder="N'importe où,emplacement, restaurant, cuisine..." />
+            <input
+              class="search-bar-input"
+              type="text"
+              placeholder="N'importe où,emplacement, restaurant, cuisine..."
+            />
           </div>
         </div>
 
@@ -42,7 +43,6 @@
           </div>
         </div>
       </nav>
-      
     </header>
     <!--types de resturant carousselle-->
     <div class="types-container categories-container">
@@ -109,8 +109,6 @@
     </div>
 
     <main class="layout-home mt-0 ml-0">
-      
-
       <section>
         <!--cartes des resturants-->
         <div class="layout-card-default">
@@ -614,8 +612,7 @@
     </main>
 
     <footer>
-      <div class="footer-container ">
-        
+      <div class="footer-container">
         <p class="sous-p">
           © 2023 Easy R&D . Confidentialté . Conditions générales
         </p>
@@ -637,22 +634,22 @@
         </p>
       </div>
 
-        <div class="footer-mobile">
-          <button class="footer-button">
+      <div class="footer-mobile hidden visible-responsive">
+        <div class="footer-mobile-buttons flex-row-around">
+          <button class="footer-mobile-button ml-30">
             <img src="./assets/search.svg" alt="Explorer" />
-            <p>Explorer</p>
+            <p class="sous-p">Explorer</p>
           </button>
-          <button class="footer-button">
-            <img src="./assets/coeur-login.svg" alt="Favoris" />
-            <p>Favoris</p>
+          <button class="footer-mobile-button">
+            <img src="./assets/Coeur.svg" alt="Favoris" />
+            <p class="sous-p">Favoris</p>
           </button>
-          <button class="footer-button">
+          <button class="footer-mobile-button mr-30">
             <img src="./assets/user.svg" alt="Connexion" />
-            <p>Connexion</p>
+            <p class="sous-p">Connexion</p>
           </button>
         </div>
-      
-      
+      </div>
     </footer>
   </body>
 </html>

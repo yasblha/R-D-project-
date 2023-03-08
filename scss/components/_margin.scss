@@ -1,27 +1,43 @@
 @for $i from 1 through 1000 {
-    $decimal-i: calc($i / 10);
-    .ml-#{$i} {
-      @include ml(#{$decimal-i}rem);
-    }
+  $decimal-i: calc($i / 10);
+  .ml-#{$i} {
+    @include ml(#{$decimal-i}rem);
   }
+}
 
-  @for $i from 1 through 1000 {
-    $decimal-i: calc($i / 10);
-    .mt-#{$i} {
-      @include mt(#{$decimal-i}rem);
-    }
+@for $i from 1 through 1000 {
+  $decimal-i: calc($i / 10);
+  .mt-#{$i} {
+    @include mt(#{$decimal-i}rem);
   }
+}
 
-  @for $i from 1 through 1000 {
-    $decimal-i: calc($i / 10);
-    .mr-#{$i} {
-      @include mr(#{$decimal-i}rem);
-    }
+@for $i from 1 through 1000 {
+  $decimal-i: calc($i / 10);
+  .mr-#{$i} {
+    @include mr(#{$decimal-i}rem);
   }
+}
 
-  @for $i from 1 through 1000 {
-    $decimal-i: calc($i / 10);
-    .mb-#{$i} {
-      @include mb(#{$decimal-i}rem);
-    }
+@for $i from 1 through 1000 {
+  $decimal-i: calc($i / 10);
+  .mb-#{$i} {
+    @include mb(#{$decimal-i}rem);
   }
+}
+
+.responsive-margin-top-2 {
+  @include responsive(sm) {
+    margin-top: 2rem;
+  }
+}
+.responsive-margin-2 {
+  @include responsive(sm) {
+    margin: 2rem;
+  }
+}
+.responsive-margin-top-none {
+  @include responsive(sm) {
+    margin-top: 0;
+  }
+}

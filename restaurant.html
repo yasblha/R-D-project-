@@ -1,161 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/main.css" />
     <title>Restaurant</title>
-</head>
-<body >
-    <button class=" button-like-desktop absolute" ><img class="mt-2" src="./assets/like-restaurant-blanc.svg" alt="bouton de like desktop"></button>
-    <div><img class="img-full" src="./assets/restaurant-header.jpg" alt="image de présentation restaurant"></div>
-    <button class=" button-return absolute hidden" ><a href="javascript:history.back()"> <img class="mr-2" src="./assets/return.svg" alt="bouton de retour"> </a> </button>
-    <button class=" button-like-mobile absolute hidden " ><img class="mt-2" src="./assets/like-restaurant.svg" alt="bouton de like mobile"></button>
-    <div class="flex-center-col-sm" >
-        <div class="card-m  pr-30 pl-30">
-           <div class="p-10" >
-            <button class="button-none" ><p>Overview</p></button>
-            <button class="button-none" ><p>Reservation</p></button>
-            <button class="button-none" > <p>Menu</p> </button>
-           </div>
-           <hr class="separator-57-90-sm" >
-           <h1 class="mt-40 mb-40" >Paku Paku - Paris</h1>
-           <hr class="separator-57" >
-
-           <div class="overview" >
-            <div class="flex" >
-                <div>
-                  <div class="review flex" > <img class="w-18 h-18" src="./assets/star.svg" alt="étoile pour les avis"  ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18" ><img src="./assets/star.svg" alt="étoile pour les avis" class="w-18 h-18"> <p class="ml-10" >571 reviews</p> </div>
-                  <div class="dollar flex mt-35 " > <img class="w-26 h-17" src="./assets/Dollars.svg" alt="Dollars"> <p class="ml-3" >30 $ and under</p>  <img class="w-18 h-18 ml-12 " src="./assets/Spoon.svg" alt="Cuilliere et fourchette"> <p class="ml-3" >Israeli</p> </div>
-                </div>
-            </div>
-            <div class="right-section-2" > <p>Paku Paku - Paris is a French restaurant - bar - brasserie - café located in the 6th arrondissement of Paris, in the Odéon district at the crossroads of Boulevard </p> </div>
-           </div>
-           <hr class="separator-57-none" >
-           <div class="mt-17 additional " >
-            <p>Additional information</p>
-            <div class="flex mt-13  " >
-              <div>
-                <img src="./assets/icone-location.svg" alt="">
-              </div>
-              <div class=" ml-11 " >
-                <p>Location</p>
-                <p class="color-button" >12 boulevard de , Paris, 75017</p>
-              </div>
-            </div>
-            
-            <div class="flex mt-18 " >
-              <div>
-                <img src="./assets/icone-parking.svg" alt="">
-              </div>
-              <div class="ml-11" >
-                <p>Parking details</p>
-                <p>None</p>
-              </div>
-            </div>
-
-            <div class="flex mt-18 " >
-              <div>
-                <img src="./assets/icone-additional.svg" alt="">
-              </div>
-              <div class="ml-11 " >
-                <p>Additional</p>
-                <p>Lorem ipsum dolor sit amet consectetur. Velit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur. Velit.</p>
-              </div>
-            </div>
-
-            <div class="flex mt-18 " >
-              <div>
-                <img src="./assets/icone-cuisines.svg" alt="">
-              </div>
-              <div class="ml-11 " >
-                <p>Cuisines</p>
-                <p>Israeli, European, Middle Eastern</p>
-              </div>
-            </div>
-
-            <div class="flex mt-18 " >
-              <div>
-                <img src="./assets/icone-hour.svg" alt="">
-              </div>
-              <div class="ml-11" >
-                <p>Hours of operation</p>
-                <p>Daily 7:00 am–11:00 am Breakfast Mon–Sat 12:00 pm–6:00 pm</p>
-                <p>Brunch Sun 12:00 pm–3:00 pm Dinner Daily 6:00 pm–10:00 pm</p>
-              </div>
-            </div>
-            <hr class="separator-57-none mt-18 " >
-           </div>
-
-           <div class="menu mt-18 " >
-              <h3>Menu</h3>
-              <button class="button-menu mt-18 " > <h4>Brunch</h4> </button>
-              <hr class="separator-39 mt-16 " >
-           </div>
-
-           <div class="details-menu mt-18 " >
-            <h3>Détail du menu</h3>
-            <p class="mt-26 " >Boulangerie</p>
-            <p class="sous-p" >Croissant, pain au chocolat,Croissant, pain au chocolat,Croissant, pain au chocolat,</p>
-            <p class="mt-26 " >Confiture</p>
-            <p class="sous-p" >Pate a tartiner et miel</p>
-            <p class="mt-26 " >Charcuterie</p>
-            <p class="sous-p" >Bacon, dinde</p>
-            <p class="mt-26 " >Saumon</p>
-            <p class="sous-p" >Oeuf</p>
-           </div>
-        </div>  
-
-
-
-
-
-
-        <div class="card-xs " >
-            <div class="flex-center mt-20 mb-16 " ><h4>Faire une réservation</h4></div>
-            <hr class="separator-28" >
-            <p class=" mt-20" >Nombre de personne</p>
-            <div class="mt-10 ">
-                <div class="select-person">
-                  <select class="sous-p" >
-                    <option value="1">1 personne</option>
-                    <option value="2">2 personnes</option>
-                    <option value="3">3 personnes</option>
-                    <option value="4">4 personnes</option>
-                    <option value="5">5 personnes</option>
-                    <option value="6">6 personnes</option>
-                    <option value="7">7 personnes</option>
-                    <option value="8">8 personnes</option>
-                    <option value="9">9 personnes</option>
-                    <option value="10">10 personnes</option>
-                    <option value="11">11 personnes</option>
-                    <option value="12">12 personnes</option>
-                    <option value="13">13 personnes</option>
-                    <option value="14">14 personnes</option>
-                    <option value="15">15 personnes</option>
-                    <option value="16">16 personnes</option>
-                    <option value="17">17 personnes</option>
-                    <option value="18">18 personnes</option>
-                    <option value="19">19 personnes</option>
-                    <option value="20">20 personnes</option>
-                  </select>
-                </div>
-              </div>
-            <div class="flex mt-30 " >
-              <div class=" width-half-sm" >
-                <label for="date" class="label-date block "  >Date</label>
-                <input value="2023-03-01" type="date" name="date" class="input-date-time" required >
-              </div>
-
-              <div class=" width-half-sm" >
-                <label for="time" class="ml-36 block " >Time</label>
-                <input type="time" name="time" class="input-date-time ml-36 "  min="09:00" max="18:00" required value="13:30" >
-              </div>
-            </div>
-            <a href="./login.html"><button class="button-m mt-22 " > <h4>Find a time</h4> </button></a>
-        </div>
+  </head>
+  <body>
+    <button class="button-like-desktop absolute">
+      <img
+        class="mt-2"
+        src="./assets/like-restaurant-blanc.svg"
+        alt="bouton de like desktop"
+      />
+    </button>
+    <div>
+      <img
+        class="img-full"
+        src="./assets/restaurant-header.jpg"
+        alt="image de présentation restaurant"
+      />
     </div>
-</body>
+    <button class="button-return absolute hidden">
+      <a href="javascript:history.back()">
+        <img class="mr-2" src="./assets/return.svg" alt="bouton de retour" />
+      </a>
+    </button>
+    <button class="button-like-mobile absolute hidden">
+      <img
+        class="mt-2"
+        src="./assets/like-restaurant.svg"
+        alt="bouton de like mobile"
+      />
+    </button>
+    <div class="flex-center-col-sm">
+      <div class="card-m pr-30 pl-30">
+        <div class="p-10">
+          <button class="button-none"><p>Overview</p></button>
+          <button class="button-none"><p>Reservation</p></button>
+          <button class="button-none"><p>Menu</p></button>
+        </div>
+        <hr class="separator-57-90-sm" />
+        <h1 class="mt-40 mb-40">Paku Paku - Paris</h1>
+        <hr class="separator-57" />
+
+        <div class="overview">
+          <div class="flex">
+            <div>
+              <div class="review flex">
+                <img
+                  class="w-18 h-18"
+                  src="./assets/star.svg"
+                  alt="étoile pour les avis"
+                /><img
+                  src="./assets/star.svg"
+                  alt="étoile pour les avis"
+                  class="w-18 h-18"
+                /><img
+                  src="./assets/star.svg"
+                  alt="étoile pour les avis"
+                  class="w-18 h-18"
+                /><img
+                  src="./assets/star.svg"
+                  alt="étoile pour les avis"
+                  class="w-18 h-18"
+                /><img
+                  src="./assets/star.svg"
+                  alt="étoile pour les avis"
+                  class="w-18 h-18"
+                />
+                <p class="ml-10">571 reviews</p>
+              </div>
+              <div class="dollar flex mt-35">
+                <img
+                  class="w-26 h-17"
+                  src="./assets/Dollars.svg"
+                  alt="Dollars"
+                />
+                <p class="ml-3">30 $ and under</p>
+                <img
+                  class="w-18 h-18 ml-12"
+                  src="./assets/Spoon.svg"
+                  alt="Cuilliere et fourchette"
+                />
+                <p class="ml-3">Israeli</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-section-2">
+            <p>
+              Paku Paku - Paris is a French restaurant - bar - brasserie - café
+              located in the 6th arrondissement of Paris, in the Odéon district
+              at the crossroads of Boulevard
+            </p>
+          </div>
+        </div>
+        <hr class="separator-57-none" />
+        <div class="mt-17 additional">
+          <p>Additional information</p>
+          <div class="flex mt-13">
+            <div>
+              <img src="./assets/icone-location.svg" alt="" />
+            </div>
+            <div class="ml-11">
+              <p>Location</p>
+              <p class="color-button">12 boulevard de , Paris, 75017</p>
+            </div>
+          </div>
+
+          <div class="flex mt-18">
+            <div>
+              <img src="./assets/icone-parking.svg" alt="" />
+            </div>
+            <div class="ml-11">
+              <p>Parking details</p>
+              <p>None</p>
+            </div>
+          </div>
+
+          <div class="flex mt-18">
+            <div>
+              <img src="./assets/icone-additional.svg" alt="" />
+            </div>
+            <div class="ml-11">
+              <p>Additional</p>
+              <p>Lorem ipsum dolor sit amet consectetur. Velit.</p>
+              <p>Lorem ipsum dolor sit amet consectetur. Velit.</p>
+            </div>
+          </div>
+
+          <div class="flex mt-18">
+            <div>
+              <img src="./assets/icone-cuisines.svg" alt="" />
+            </div>
+            <div class="ml-11">
+              <p>Cuisines</p>
+              <p>Israeli, European, Middle Eastern</p>
+            </div>
+          </div>
+
+          <div class="flex mt-18">
+            <div>
+              <img src="./assets/icone-hour.svg" alt="" />
+            </div>
+            <div class="ml-11">
+              <p>Hours of operation</p>
+              <p>Daily 7:00 am–11:00 am Breakfast Mon–Sat 12:00 pm–6:00 pm</p>
+              <p>Brunch Sun 12:00 pm–3:00 pm Dinner Daily 6:00 pm–10:00 pm</p>
+            </div>
+          </div>
+          <hr class="separator-57-none mt-18" />
+        </div>
+
+        <div class="menu mt-18">
+          <h3>Menu</h3>
+          <button class="button-menu mt-18"><h4>Brunch</h4></button>
+          <hr class="separator-39 mt-16" />
+        </div>
+
+        <div class="details-menu mt-18">
+          <h3>Détail du menu</h3>
+          <p class="mt-26">Boulangerie</p>
+          <p class="sous-p">
+            Croissant, pain au chocolat,Croissant, pain au chocolat,Croissant,
+            pain au chocolat,
+          </p>
+          <p class="mt-26">Confiture</p>
+          <p class="sous-p">Pate a tartiner et miel</p>
+          <p class="mt-26">Charcuterie</p>
+          <p class="sous-p">Bacon, dinde</p>
+          <p class="mt-26">Saumon</p>
+          <p class="sous-p">Oeuf</p>
+        </div>
+      </div>
+
+      <div class="card-xs">
+        <div class="flex-center mt-20 mb-16">
+          <h4>Faire une réservation</h4>
+        </div>
+        <hr class="separator-28" />
+        <p class="mt-20">Nombre de personne</p>
+        <div class="mt-10">
+          <div class="select-person">
+            <select class="sous-p">
+              <option value="1">1 personne</option>
+              <option value="2">2 personnes</option>
+              <option value="3">3 personnes</option>
+              <option value="4">4 personnes</option>
+              <option value="5">5 personnes</option>
+              <option value="6">6 personnes</option>
+              <option value="7">7 personnes</option>
+              <option value="8">8 personnes</option>
+              <option value="9">9 personnes</option>
+              <option value="10">10 personnes</option>
+              <option value="11">11 personnes</option>
+              <option value="12">12 personnes</option>
+              <option value="13">13 personnes</option>
+              <option value="14">14 personnes</option>
+              <option value="15">15 personnes</option>
+              <option value="16">16 personnes</option>
+              <option value="17">17 personnes</option>
+              <option value="18">18 personnes</option>
+              <option value="19">19 personnes</option>
+              <option value="20">20 personnes</option>
+            </select>
+          </div>
+        </div>
+        <div class="flex mt-30">
+          <div class="width-half-sm">
+            <label for="date" class="label-date block">Date</label>
+            <input
+              value="2023-03-01"
+              type="date"
+              name="date"
+              class="input-date-time"
+              required
+            />
+          </div>
+
+          <div class="width-half-sm">
+            <label for="time" class="ml-36 block">Time</label>
+            <input
+              type="time"
+              name="time"
+              class="input-date-time ml-36"
+              min="09:00"
+              max="18:00"
+              required
+              value="13:30"
+            />
+          </div>
+        </div>
+        <a href="./login.html"
+          ><button class="button-m mt-22"><h4>Find a time</h4></button></a
+        >
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <p class="sous-p">
+          © 2023 Easy R&D . Confidentialté . Conditions générales
+        </p>
+
+        <p class="langue">
+          <svg
+            width="15"
+            height="14"
+            viewBox="0 0 15 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.7713 9.30512C14.2924 7.81147 14.2924 6.18509 13.7713 4.69144L13.7507 4.63652C13.2638 3.27901 12.3702 2.10512 11.1918 1.27524C10.0134 0.445367 8.60775 0 7.16699 0C5.72623 0 4.32062 0.445367 3.14222 1.27524C1.96382 2.10512 1.07014 3.27901 0.583282 4.63652L0.562708 4.69144C0.0415973 6.18509 0.0415973 7.81147 0.562708 9.30512L0.583282 9.36005C1.06943 10.7178 1.96251 11.8922 3.14047 12.7227C4.31843 13.5531 5.72382 13.9992 7.16458 14C8.60534 14.0008 10.0112 13.5561 11.19 12.7269C12.3688 11.8976 13.2631 10.7242 13.7507 9.36691L13.7713 9.30512ZM5.22617 9.60721H9.10781C8.71691 10.8636 8.05168 11.9896 7.16699 12.8546C6.28231 11.9896 5.61708 10.8636 5.22617 9.60721ZM5.02043 8.78334C4.77347 7.60614 4.77347 6.39042 5.02043 5.21323H9.31356C9.56052 6.39042 9.56052 7.60614 9.31356 8.78334H5.02043ZM0.994764 6.99828C0.993335 6.39366 1.08115 5.79215 1.25537 5.21323H4.17689C3.95738 6.39312 3.95738 7.60345 4.17689 8.78334H1.25537C1.08115 8.20442 0.993335 7.6029 0.994764 6.99828ZM9.10781 4.38936H5.22617C5.61708 3.13295 6.28231 2.00699 7.16699 1.14193C8.05168 2.00699 8.71691 3.13295 9.10781 4.38936ZM10.164 5.21323H13.0786C13.4263 6.37782 13.4263 7.61875 13.0786 8.78334H10.164C10.3743 7.60261 10.3743 6.39395 10.164 5.21323ZM12.7631 4.38936H9.97193C9.62029 3.08691 8.96447 1.88678 8.05854 0.887902C9.071 1.03596 10.0309 1.4334 10.852 2.04454C11.6732 2.65568 12.3299 3.4614 12.7631 4.38936ZM6.27545 0.887902C5.36951 1.88678 4.7137 3.08691 4.36206 4.38936H1.57084C2.00413 3.4614 2.66082 2.65568 3.48196 2.04454C4.3031 1.4334 5.26299 1.03596 6.27545 0.887902ZM1.57084 9.60721H4.36206C4.71513 10.9111 5.37071 12.1132 6.27545 13.1155C5.2631 12.9644 4.3038 12.5651 3.48296 11.9529C2.66213 11.3408 2.00526 10.535 1.57084 9.60721ZM8.05854 13.1155C8.96328 12.1132 9.61885 10.9111 9.97193 9.60721H12.7631C12.3287 10.535 11.6719 11.3408 10.851 11.9529C10.0302 12.5651 9.07088 12.9644 8.05854 13.1155Z"
+              fill="black"
+            />
+          </svg>
+          Français(FR) € EUR
+        </p>
+      </div>
+
+      <div class="footer-mobile hidden visible-responsive">
+        <div class="footer-mobile-buttons flex-row-around">
+          <button class="footer-mobile-button ml-30">
+            <img src="./assets/search.svg" alt="Explorer" />
+            <p class="sous-p">Explorer</p>
+          </button>
+          <button class="footer-mobile-button">
+            <img src="./assets/Coeur.svg" alt="Favoris" />
+            <p class="sous-p">Favoris</p>
+          </button>
+          <button class="footer-mobile-button mr-30">
+            <img src="./assets/user.svg" alt="Connexion" />
+            <p class="sous-p">Connexion</p>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
