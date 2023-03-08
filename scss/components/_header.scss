@@ -4,8 +4,18 @@
     }
   }
   
-  @media (max-width: 600px) {
-    .search-bar {
+ // @media (max-width: 600px) {
+   // .search-bar {
+    //  display: none;
+   // }
+  //}
+  
+  @media only screen and (max-width: 768px) {
+    header nav a img {
+      display: none;
+    }
+  
+    .coeur-login-container {
       display: none;
     }
   }

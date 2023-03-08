@@ -19,3 +19,84 @@
     margin-right: 5rem;
   }
 }
+
+
+/* Style pour les boutons du footer dans la version mobile */
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 20rem;
+}
+
+.footer-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #666666;
+}
+
+.footer-button img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* Cacher les boutons du footer dans la version desktop */
+@media (min-width: 768px) {
+  .footer-buttons {
+    display: none;
+  }
+}
+
+/* Cacher le footer actuel dans la version mobile */
+@media (max-width: 767px) {
+  .footer-container {
+    display: none;
+  }
+}
+
+
+/* Afficher les boutons en bas de l'écran en version mobile */
+@media (max-width: 767px) {
+  .footer-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+}
+
+/* @media (max-width: 767px) {
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+/* Afficher le footer en bas de l'écran en version mobile */
+@media (max-width: 767px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height:6.5rem;
+    background-color: $color-background;
+  }
+}

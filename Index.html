@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/jquery.js"></script>
     <script defer src="./js/slider.js"></script>
+    <script defer src="./js/search.js"></script>
     <script defer src="./js/type_line.js"></script>
     <title>R & D</title>
+
   </head>
+
   <body>
     <header mr-22>
       <nav>
-        <a href="/index.html"
-          ><img class="main-logo" src="./assets/Logo.svg" alt="Logo easy R & D"
-        /></a>
+        <a href="/index.html">
+          <img class="main-logo" src="./assets/Logo.svg" alt="Logo easy R & D"/>
+        </a>
+
         <div class="search-bar">
           <div>
             <img class="search-bar-icon" src="./assets/Search.svg" />
-            <p class="search-bar-text1">N'importe où,</p>
-            <p class="search-bar-text2">Emplacement, restaurant, cuisine...</p>
+            <!--<p class="search-bar-text1">N'importe où,</p>
+            <p class="search-bar-text2">Emplacement, restaurant, cuisine...</p>-->
+            <input class="search-bar-input" type="text" placeholder="N'importe où,emplacement, restaurant, cuisine..." />
           </div>
         </div>
 
@@ -34,56 +41,74 @@
           </div>
         </div>
       </nav>
+      
     </header>
+    <!--types de resturant carousselle-->
+    <div class="types-container categories-container">
+      <div class="categories-wrapper p-20 pb-2">
+        <div class="category pr-22 button-slider" data-type="français">
+          <img src="./assets/Tendances.svg" alt="Category 1" />
+          <button class="button-slider button-none"><p>Français</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="indien">
+          <img src="./assets/indien.svg" alt="Category 2" />
+          <button class="button-slider button-none"><p>Indien</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="burger">
+          <img src="./assets/français.svg" alt="Category 3" />
+          <button class="button-slider button-none"><p>Burger</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="pizza">
+          <img src="./assets/pizza.svg" alt="Category 4" />
+          <button class="button-slider button-none"><p>Pizza</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="vegetarian">
+          <img src="./assets/burger.svg" alt="Category 5" />
+          <button class="button-slider button-none"><p>Végétarien</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="pâtes">
+          <img src="./assets/vegan.svg" alt="Category 6" />
+          <button class="button-slider button-none"><p>Pâtes</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="viandes">
+          <img src="./assets/Viandes.svg" alt="Category 7" />
+          <button class="button-slider button-none"><p>Viandes</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="alcool">
+          <img src="./assets/Alcool.svg" alt="Category 8" />
+          <button class="button-slider button-none"><p>Alcool</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category8">
+          <img src="./assets/Enfants.svg" alt="Category 9" />
+          <button class="button-slider button-none"><p>Enfants</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category9">
+          <img src="./assets/burger.svg" alt="Category 10" />
+          <button class="button-slider button-none"><p>Category 9</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category9">
+          <img src="./assets/burger.svg" alt="Category 11" />
+          <button class="button-slider button-none"><p>Category 9</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category9">
+          <img src="./assets/burger.svg" alt="Category 12" />
+          <button class="button-slider button-none"><p>Category 9</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category9">
+          <img src="./assets/burger.svg" alt="Category 13" />
+          <button class="button-slider button-none"><p>Category 9</p></button>
+        </div>
+        <div class="category pr-22 button-slider" data-type="category9">
+          <img src="./assets/burger.svg" alt="Category 14" />
+          <button class="button-slider button-none"><p>Category 9</p></button>
+        </div>
+        <div class="line"></div>
+        <!-- ajouter d'autres catégories ici -->
+      </div>
+    </div>
 
     <main class="layout-home mt-0 ml-0">
-      <!--types de resturant carousselle-->
-      <div class="types-container">
-        <div class="categories-wrapper p-30">
-          <div class="category pr-22 button-slider" data-type="français">
-            <img src="./assets/Tendances.svg" alt="Category 1" />
-            <button class="button-slider button-none"><p>Français</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="indien">
-            <img src="./assets/indien.svg" alt="Category 2" />
-            <button class="button-slider button-none"><p>Indien</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="burger">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Burger</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="pizza">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Pizza</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="vegetarian">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Végétarien</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="pâtes">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Pâtes</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="viandes">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Viandes</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="alcool">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Alcool</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="category8">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Category 8</p></button>
-          </div>
-          <div class="category pr-22 button-slider" data-type="category9">
-            <img src="./assets/burger.svg" alt="Category 3" />
-            <button class="button-slider button-none"><p>Category 9</p></button>
-          </div>
-          <div class="line"></div>
-          <!-- ajouter d'autres catégories ici -->
-        </div>
-      </div>
+      
 
       <section>
         <!--cartes des resturants-->
@@ -278,10 +303,12 @@
     </main>
 
     <footer>
-      <div class="footer-container">
+      <div class="footer-container  footer-mobile">
+        
         <p class="sous-p">
           © 2023 Easy R&D . Confidentialté . Conditions générales
         </p>
+
         <p class="langue">
           <svg
             width="15"
@@ -298,6 +325,23 @@
           Français(FR) € EUR
         </p>
       </div>
+
+        <div class="footer-buttons  footer-mobile">
+          <button class="footer-button">
+            <img src="./assets/search.svg" alt="Explorer" />
+            <p>Explorer</p>
+          </button>
+          <button class="footer-button">
+            <img src="./assets/coeur-login.svg" alt="Favoris" />
+            <p>Favoris</p>
+          </button>
+          <button class="footer-button">
+            <img src="./assets/user.svg" alt="Connexion" />
+            <p>Connexion</p>
+          </button>
+        </div>
+      
+      
     </footer>
   </body>
 </html>

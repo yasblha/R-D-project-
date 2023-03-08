@@ -1,3 +1,18 @@
+.categories-container {
+  /* supprimer la scrollbar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: -moz-scrollbars-none; /* Firefox */
+  overflow-x: scroll; /* activer le défilement horizontal */
+
+  /* ajout du swipe pour mobiles */
+  -webkit-overflow-scrolling: touch;
+}
+
+.categories-container::-webkit-scrollbar {
+  display: none; /* supprimer la scrollbar sur Webkit (Chrome et Safari) */
+}
+
 .types-container {
     position: relative;
     width: 100%;
@@ -11,6 +26,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    scroll-snap-type: x mandatory; /* ajouter cette ligne pour activer le scroll horizontal */
     margin: 0 1.5rem; /* marges de chaque côté pour éviter les bords collés */
   }
   
