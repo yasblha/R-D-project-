@@ -10,6 +10,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 0rem;
+  @include responsive(sm) {
+    display: none;
+  }
 
   .sous-p {
     margin-left: 5rem;
@@ -19,8 +22,12 @@
     margin-right: 5rem;
   }
 }
-footer {
-  @include responsive(sm) {
-    display: none;
-  }
+
+.footer-mobile-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.footer-mobile-button:hover {
+  color: $color-button;
 }

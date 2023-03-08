@@ -60,7 +60,10 @@
   justify-content: start;
   align-items: start;
 }
-
+.flex-row-around {
+  display: flex;
+  justify-content: space-around;
+}
 .width-lg {
   width: 80%;
 }
