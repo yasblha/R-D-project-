@@ -90,7 +90,7 @@
   align-items: center;
   font-size: 1.6rem;
   width: 29rem;
-  margin: 1.5rem;
+  margin: 1.2rem;
   padding: 1.3rem;
   border: 1px solid;
   background-color: transparent;
@@ -162,9 +162,7 @@
   width: 100%;
 }
 
-
 .button-like-desktop {
-
   top: 26px;
   right: 26px;
   background: none;
@@ -172,13 +170,12 @@
   border: none;
   margin: 1rem;
   cursor: pointer;
-    img {
-      width: 30px;
-      height: 29px;
-    }
-
-  @include responsive(sm) {
-   display: none !important;
+  img {
+    width: 30px;
+    height: 29px;
   }
 
+  @include responsive(sm) {
+    display: none !important;
+  }
 }
