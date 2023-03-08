@@ -71,22 +71,18 @@
   });  */
 
   ///////////////////////
-  
+
   //afficher les restaurants pour la catégorie cliquée
   
   function afficherElements(dataAttr) {
     
-    const elements = document.querySelectorAll(`[data-type="${dataAttr}"]`);
-    
+    const elements = document.querySelectorAll(`[data-type="${dataAttr}"]`);  
     
     elements.forEach(element => {
       element.classList.add('block');
-    });
-    
+    });    
     // Sélectionner tous les éléments avec l'attribut de données, sauf ceux qui correspondent à l'attribut de données spécifié
     const autresElements = document.querySelectorAll(`[data-type]:not([data-type="${dataAttr}"])`);
-    
-    
     autresElements.forEach(element => {
       element.classList.remove('block');
     });

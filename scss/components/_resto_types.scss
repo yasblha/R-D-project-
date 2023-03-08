@@ -1,16 +1,16 @@
 .categories-container {
   /* supprimer la scrollbar */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  overflow: -moz-scrollbars-none; /* Firefox */
-  overflow-x: scroll; /* activer le défilement horizontal */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow: -moz-scrollbars-none; 
+  overflow-x: scroll; 
 
   /* ajout du swipe pour mobiles */
   -webkit-overflow-scrolling: touch;
 }
 
 .categories-container::-webkit-scrollbar {
-  display: none; /* supprimer la scrollbar sur Webkit (Chrome et Safari) */
+  display: none; 
 }
 
 .types-container {
@@ -18,7 +18,7 @@
     width: 100%;
     overflow-x: auto; /* faire défiler horizontalement */
     overflow-y: hidden;
-    white-space: nowrap; /* empêcher les sauts de ligne */
+    white-space: nowrap; 
     //-webkit-overflow-scrolling: touch;
   }
   
@@ -27,38 +27,72 @@
     justify-content: flex-start;
     align-items: center;
     scroll-snap-type: x mandatory; /* ajouter cette ligne pour activer le scroll horizontal */
-    margin: 0 1.5rem; /* marges de chaque côté pour éviter les bords collés */
+    margin: 0 1.5rem;
   }
   
   .category {
     position: relative;
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-right: 3rem;
     cursor: pointer;
   }
 
   .category.active {
-    opacity: 0.7; /* rendre la catégorie sélectionnée plus foncée */
+    opacity: 2.7; 
   }
   
   .category img {
     //width: 5rem;
     height: 5rem;
   }
-  
-  .category span {
-    font-size: 1.4rem;
-    margin-top: 0.5rem;
-    text-align: center;
+  .category:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .line {
     position: absolute;
-    bottom: -3px; /* positionner la ligne en bas des catégories */
+    bottom: -3px; 
     height: 3px;
-    background-color: $color-text; /* couleur de la ligne */
-    transition: all 0.3s ease; /* ajouter une transition pour l'animation */
+    background-color: $color-text; 
+    transition: all 0.3s ease; 
   }
+  
+  @media (max-width: 767px) {
+    .category {
+      margin-right: 1rem;
+    }
+  
+    .category img {
+      height: 3.5rem;
+    }
+  
+    .category span {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Média queries pour les écrans encore plus petits */
+ /* @media (max-width: 374px) {
+    .category {
+      margin-right: 0.5rem;
+    }
+  
+    .category img {
+      height: 3rem;
+      width: 3rem;
+    }*/
+  
+    .category span {
+      font-family: $font1;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      text-align: center;
+      font-feature-settings: "pnum"on , "lnum"on;
+      margin-top: 0.5rem;
+        }
   
