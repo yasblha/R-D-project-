@@ -161,3 +161,24 @@
   cursor: pointer;
   width: 100%;
 }
+
+
+.button-like-desktop {
+
+  top: 26px;
+  right: 26px;
+  background: none;
+  color: inherit;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+    img {
+      width: 30px;
+      height: 29px;
+    }
+
+  @include responsive(sm) {
+   display: none !important;
+  }
+
+}
