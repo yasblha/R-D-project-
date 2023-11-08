@@ -1,5 +1,5 @@
 // obtenir la largeur de chaque catégorie
-var categoryWidth = $('.category').width();
+let categoryWidth = $('.category').width();
 
 // au clic sur une catégorie obtenir la catégorie associée
 $('.category').click(function() {
